@@ -356,50 +356,11 @@ i.rotating-clockwise {
     animation-duration: 2s;
 }
 
-@-moz-keyframes rotating-clockwise {
-    from {
-        transform: rotate(0);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-@-webkit-keyframes rotating-clockwise {
-    from {
-        transform: rotate(0);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-@-o-keyframes rotating-clockwise {
-    from {
-        transform: rotate(0);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes rotating-clockwise {
-    from {
-        transform: rotate(0);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
-}
 
 #header {
     background-color: #fff;
     height: 40px;
-    width: 100%;
+    width: 94%;
     padding: 10px 60px;
     position: relative;
     z-index: 100;
@@ -2179,4 +2140,44 @@ pre code.hljs.bash::before {
 
 pre code.hljs.css::before {
     content: "CSS";
+}
+
+@-moz-keyframes rotating-clockwise {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes rotating-clockwise {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@-o-keyframes rotating-clockwise {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotating-clockwise {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
