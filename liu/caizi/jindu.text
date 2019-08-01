@@ -1,0 +1,193 @@
+   <link rel="stylesheet" href="css/jindutiao.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+
+
+
+
+            <div class="nei-tou">
+                <a href="index.html">
+                    主页
+                </a>
+                <p>/</p>
+                <p>组件</p>
+                <p>/</p>
+                <p>进度条</p>
+            </div>
+            <div class="nei-bao">
+                <div class="nei-yi">
+                    <div class="nei-yi-t">
+                        <p>默认进度条</p>
+                    </div>
+                    <div class="nei-yi-q">
+                        <ul class="nei-yi-q-q">
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="nei-yi-w">
+                        <ul class="nei-yi-q-q">
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ul class="nei-yi-q-q">
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="nei-er">
+                    <div class="nei-yi-t">
+                        <p>跟多颜色进度条</p>
+                    </div>
+                    <div class="nei-yi-er-t">
+                        <ul class="nei-yi-q-qqq">
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ul class="nei-yi-q-qqw">
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ul class="nei-yi-q-qqe">
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ul class="nei-yi-q-qqr">
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ul class="nei-yi-q-qqt">
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ul class="nei-yi-q-qqy">
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ul class="nei-yi-q-qqu">
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ul class="nei-yi-q-qqi">
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="nei-san">
+                    <div class="nei-yi-t">
+                        <p>动态进度条</p>
+                    </div>
+                    <div class="nei-er-ccc">
+                        <ul class="nei-er-q-yi">
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <div class="nei-er-zz">
+                            <div class="nei-er-zzzy">
+                                <p>设置50%</p>
+                            </div>
+                            <div class="nei-er-zzze">
+                                <p>模拟loading</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="nei-si">
+                    <div class="nei-yi-t">
+                        <p>动态进度条</p>
+                    </div>
+                    <div class="nei-yi-er-tttt">
+                        <ul class="nei-yi-q-qqqw">
+                            <li>
+                                <p>20%</p>
+                            </li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ul class="nei-yi-q-qqwe">
+                            <li>
+                                <p>5/10</p>
+                            </li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ul class="nei-yi-q-qqer">
+                            <li>
+                                <p>70%</p>
+                            </li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+<script src="jquery/jquery-1.12.4.js"></script>
+
+<script>
+
+    $(window).resize(() => {
+        $(window).width() <= 990 ? $('.right-column').width('0px') : $('.right-column').width('240px')
+        $(window).width() <= 990 ? $('.shuo').css({ "opacity": '0' }) : $('.shuo').css({ "opacity": '1' })
+        $(window).width() <= 990 ? $('.head').css({ "padding-left": '0px' }) : $('.head').css({ "padding-left": '240px' })
+        $(window).width() <= 990 ? $('.logo').css({ "left": '-240px' }) : $('.logo').css({ "left": '0px' })
+        $(window).width() <= 990 ? $('.nei').css({ "padding-left": '0px' }) : $('.nei').css({ "padding-left": '240px' })
+    })
+    $(window).width() <= 990 ? $('.right-column').width('0px') : $('.right-column').width('240px')
+    $(window).width() <= 990 ? $('.head').css({ "padding-left": '0px' }) : $('.head').css({ "padding-left": '240px' })
+    $(window).width() <= 990 ? $('.nei').css({ "padding-left": '0px' }) : $('.nei').css({ "padding-left": '240px' })
+</script>
+<script>
+    $(".list_dtf").click(function () {
+        $('.list_ddf').stop();
+        $(this).siblings("dtf").removeAttr("id");
+        if ($(this).attr("id") == "open") {
+            $(this).removeAttr("id").siblings("dd").slideUp();
+        } else {
+            $(this).attr("id", "open").next().slideDown().siblings("dd").slideUp();
+        }
+    });
+
+    $(".list_ddf").click(function () {
+        $('.list_ddf').stop();
+        $(this).siblings("dtf").removeAttr("id");
+        if ($(this).attr("id") == "open") {
+            $(this).removeAttr("id").siblings("dd").slideUp();
+        } else {
+            $(this).attr("id", "open").next().slideDown().siblings("dd").slideUp();
+        }
+    });
+
+    $(".list_dtff").click(function () {
+        $('.list_ddff').stop();
+        $(this).siblings("dtf").removeAttr("id");
+        if ($(this).attr("id") == "open") {
+            $(this).removeAttr("id").siblings("dd").slideUp();
+        } else {
+            $(this).attr("id", "open").next().slideDown().siblings("dd").slideUp();
+        }
+    });
+
+
+    $(".list_dttqw").click(function () {
+        $('.list_ddqw').stop();
+        $(this).siblings("dtf").removeAttr("id");
+        if ($(this).attr("id") == "open") {
+            $(this).removeAttr("id").siblings("dd").slideUp();
+        } else {
+            $(this).attr("id", "open").next().slideDown().siblings("dd").slideUp();
+        }
+    });
+</script>
+<script>
+    $('.nei-er-zzzy').click(() => {
+        $('.nei-er-q-yi li:nth-child(2)').css("width", '50%')
+    })
+    $('.nei-er-zzze').click(() => {
+        0
+    })
+</script>

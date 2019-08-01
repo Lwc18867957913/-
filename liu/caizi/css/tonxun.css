@@ -1,0 +1,87 @@
+.nei-tou{
+    margin-top: 52px;
+}
+
+.nei-ron{
+    padding: 7.5px 7.5px 7.5px 7.5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nei-ron-yi{
+    width: 33%;
+    background: #f2f2f2;
+    padding: 7.5px 7.5px 7.5px 7.5px;
+}
+
+.nei-ron-yiwai{
+    background: white;
+    padding: 20px;
+    display: flex;
+}
+
+.nei-ron-er{
+    width: 31.5%;
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding:20;
+}
+
+.nei-ron-er:hover .nei-ron-er-yi p{
+    opacity: 0.5;
+}
+
+.nei-ron-er-yi{
+    background: white;
+    padding: 0 14.71px 0 14.71 ;margin: 0 auto;
+}
+
+.nei-ron-er-yi img{
+    width: 80%;
+    width: 80%;
+    border-radius: 70px;
+    margin-left: 10%;
+}
+
+.nei-ron-er-yi p{
+    font-size: 15px;
+    color: #333;
+    font-weight: 900;
+    margin-left: 38%;
+}
+
+.nei-ron-ere{
+    width: 70%;
+    background: white;
+    padding: 0 0 0 20px;
+}
+
+
+.nei-ron-ere p{
+    font-size: 14px;
+    margin: 5px 0 10px 0;
+}
+
+.nei-ron-ere p:nth-child(1){
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.nei-ron-ers{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 20px 0;
+}
+
+.nei-ron-ers a{
+    color: #333;
+}
+
+.nei-ron-ere-yy:hover .nei-ron-ere-yy p{
+    opacity: 0.5;
+}
+
+.nei-ron-ers:hover .nei-ron-ers a{
+    opacity: 0.5;
+}

@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 800px;
+            height: 577px;
+            border: 1px solid;
+            margin: 0 auto;
+        }
+
+        .containerLeft {
+            width: 649px;
+            height: 100%;
+            background-image: url("img/bg.png");
+            float: left;
+            position: relative;
+        }
+
+        .containerRight {
+            width: 151px;
+            height: 100%;
+            background-color: pink;
+            float: left;
+        }
+
+        .gameMenu {
+            width: 200px;
+            height: 300px;
+            margin: 0 auto;
+            margin-top: 250px;
+        }
+
+        .menuBtn {
+            width: 100%;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            margin-top: 30px;
+            border-radius: 10px;
+            color: black;
+            border: 1px solid;
+            cursor: pointer;
+        }
+
+        .menuBtn:hover {
+            background-color: goldenrod;
+        }
+
+        .gameIntroContent {
+            margin-top: 250px;
+            display: none;
+        }
+
+        .gamepanel {
+            position: absolute;
+            left: 100px;
+            top: 230px;
+            display: none;
+        }
+
+        .times {
+            width: 110px;
+            height: 60px;
+            margin: 0 auto;
+            margin-top: 50px;
+            text-align: center;
+            border-radius: 10px;
+            border: 1px solid;
+        }
+
+        .times_top {
+            width: 100%;
+            height: 50%;
+        }
+
+        .gamepanel {
+            position: absolute;
+            top: 250px;
+            left: 80px;
+            display: none;
+        }
+
+        .img_top,
+        .img_bottom {
+            position: relative;
+        }
+
+        .gamepanel .baffle {
+            width: 100px;
+            height: 60px;
+            /*    去除挡板的背景颜色*/
+            /*background-color: pink;*/
+            opacity: 0.5;
+            /*    去除挡板的边框*/
+            /*border: 1px solid;*/
+        }
+
+        .gamepanel .plate1 {
+            position: absolute;
+            left: 30px;
+            top: -30px;
+        }
+
+        .gamepanel .plate2 {
+            position: absolute;
+            left: 195px;
+            top: -30px;
+        }
+
+        .gamepanel .plate3 {
+            position: absolute;
+            left: 365px;
+            top: -30px;
+        }
+
+        .score {
+            border: 1px solid black;
+            width: 110px;
+            height: 60px;
+            border-radius: 10px;
+            margin: 0 auto;
+            margin-top: 150px;
+            text-align: center;
+        }
+
+        .getScore {
+            width: 300px;
+            height: 200px;
+            position: absolute;
+            top: 225px;
+            left: 175px;
+            text-align: center;
+            display: none;
+        }
+
+        .getScore_instru,
+        .getScore_over {
+            width: 100%;
+            height: 25%;
+            line-height: 50px;
+            font-size: 32px;
+            color: black;
+        }
+
+        .getScore_btn {
+            width: 200px;
+            height: 50px;
+            background-color: rgb(233, 233, 233);
+            margin: 0 auto;
+            margin-top: 20px;
+            border: 1px solid;
+            border-radius: 4px;
+            text-align: center;
+            line-height: 50px;
+            color: black;
+            cursor: pointer;
+        }
+
+        .getScore_btn:hover {
+            background-color: yellowgreen;
+        }
+
+        #anniu {
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 250px;
+            left: 200px;
+            display: none;
+        }
+
+        #mansu {
+            width: 100px;
+            height: 30px;
+            margin: 0 auto;
+            cursor: pointer;
+            border-radius: 10px;
+            border: 1px solid black;
+            text-align: center;
+            line-height: 30px;
+        }
+
+        #kuaisu {
+            width: 100px;
+            height: 30px;
+            margin: 0 auto;
+            margin-top: 100px;
+            cursor: pointer;
+            border-radius: 10px;
+            border: 1px solid black;
+            text-align: center;
+            line-height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="containerLeft" id="containerLeft">
+            <div class="gameMenu" id="gameMenu">
+                <div class="startGame menuBtn" id="startGame">开始游戏</div>
+                <div class="gameIntro menuBtn" id="gameIntro">游戏介绍</div>
+                <div class="exitGame menuBtn" id="exitGame">退出游戏</div>
+            </div>
+            <div class="gamepanel" id="gamepanel">
+                <div class="img_top">
+                    <img src="img/44.png" alt="" />
+                    <img src="img/44.png" alt="" />
+                    <img src="img/44.png" alt="" />
+                    <div class="baffle plate1 one"></div>
+                    <div class="baffle plate2 two"></div>
+                    <div class="baffle plate3 three"></div>
+                </div>
+                <div class="img_bottom">
+                    <img src="img/44.png" alt="" />
+                    <img src="img/44.png" alt="" />
+                    <img src="img/44.png" alt="" />
+                    <div class="baffle plate1 four"></div>
+                    <div class="baffle plate2 five"></div>
+                    <div class="baffle plate3 six"></div>
+                </div>
+            </div>
+            <div class="getScore">
+                <div class="getScore_instru">游戏结束</div>
+                <div class="getScore_over"></div>
+                <div class="getScore_btn">回到主菜单</div>
+            </div>
+        </div>
+        <div class="containerRight">
+            <div class="gameIntroContent" id="gameIntroContent">
+                这是一个用锤子打老鼠的游戏，特别简单。只要用锤子敲打老鼠，打中了得10分,没打中不得分。
+            </div>
+            <div class="score">
+                <div class="score_top">得分</div>
+                <div class="score_bottom"></div>
+            </div>
+            <div class="times">
+                <div class="times_top">时间</div>
+                <div class="times_bottom"></div>
+            </div>
+        </div>
+        <div id="anniu">
+            <div id="mansu">慢速</div>
+            <div id="kuaisu">快速</div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script>
+    var i = 1;//图片的编号,在1-3之间变化
+    var x = 5;//随机数的上限
+    var y = 0;//随机数的下限
+    var rand;// 树桩随机数变量,刚开始没有赋值
+    var times = 30;//计时器的初始时间
+    var mouseInOut;
+    var gameRunning = false;
+    var score = 0;
+    var zidong;
+    //老鼠出现函数
+    function mouseInOutFn() {
+        //如果i的值大于3,说明一整套老鼠出来的图片已经走完了
+        if (i > 3) {
+            //将该树桩的图片重置
+            $("img").eq(rand).attr("src", "img/mu0.png");
+            //i重置为1
+            i = 1;
+            //重新开始摇出一个随机树桩,产生0-5之间的随机数
+            rand = parseInt(Math.random() * (x - y + 1) + y);
+            return;
+        }
+        //图片的完整路径
+        var imgChange = "img/44.png" + i + ".png";
+        //给摇出来的随机树桩更换图片
+        $("img").eq(rand).attr("src", imgChange);
+        //i自增1,下一次调用的时候图片就会被匹配成下一张图片
+        i++;
+    }
+
+    startGame.addEventListener("click", function () {
+        $("#gameMenu").css("display", "none");
+        $("#anniu").css("display", "block");
+    });
+    //给游戏介绍绑定时间
+    gameIntro.addEventListener("click", function () {
+        if (gameIntroContent.style.display == "none") {
+            gameIntroContent.style.display = "block";  //将游戏介绍显示
+            $(".times").css("display", "none"); //将时间隐藏
+            $(".score").css("display", "none"); //将分数隐藏
+        }
+        else {
+            gameIntroContent.style.display = "none"; //将游戏介绍设置为隐藏
+            $(".times").css("display", "block");  //将时间显示
+            $(".score").css("display", "block");  //将分数显示
+        }
+    });
+    //
+
+    //给开始游戏按钮绑定点击事件
+    //      慢速
+    mansu.addEventListener("click", function () {
+        gameRunning = true;
+        $("#anniu").css("display", "none");
+        gamepanel.style.display = "block";
+        gameInit();  //调用游戏初始化慢速函数
+        startGames();  //调用游戏开始函数
+        timeCountFn();  //调用时间函数
+    });
+    //        快速
+    kuaisu.addEventListener("click", function () {
+        gameRunning = true;
+        $("#anniu").css("display", "none");
+        gamepanel.style.display = "block";
+        gameInit1();  //调用游戏初始化快速函数
+        startGames();  //调用游戏开始函数
+        timeCountFn();  //调用时间函数
+    });
+    //显示时间的事件
+    function timeCountFn() {
+        //显示当前的时间
+        $(".times_bottom").html(times);
+        //如果计时器的时间已经为零
+        if ($(".times_bottom").html() == 0) {
+            //停止周期调用老鼠出现与计时器函数
+            clearInterval(mouseInOut);
+            clearInterval(timeCount);
+            //隐藏树桩盒子
+            $(".gamepanel").css("display", "none");
+            //显示评价盒子
+            $(".getScore").css("display", "block");
+            $(".getScore_over").html(score);
+            //鼠标恢复为正常
+            $(".containerLeft").css("cursor", "auto");
+            //游戏运行状态修改为false
+            gameRunning = false;
+            //将.panel_left上面的所有事件全部解绑
+            $(".containerLeft").off();
+            $(".one").off();
+            $(".two").off();
+            $(".three").off();
+            $(".four").off();
+            $(".five").off();
+            $(".six").off();
+            return;
+        }
+        times--;
+    }
+    //游戏快速初始化函数
+    function gameInit() {
+        //将计时器的值初始化为初始时间
+        $(".times_bottom").html(times);
+        //将计分的值初始化为0
+        $(".score_bottom").html(score);
+        //调用计时器函数,每个1秒调用一次
+        timeCount = setInterval("timeCountFn()", 1000);
+        //调用老鼠出现函数,每隔400毫秒就调用一次
+        mouseInOut = setInterval("mouseInOutFn()", 400);
+    }
+    //游戏慢速初始化函数
+    function gameInit1() {
+        //将计时器的值初始化为初始时间
+        $(".times_bottom").html(times);
+        //将计分的值初始化为0
+        $(".score_bottom").html(score);
+        //调用计时器函数,每个1秒调用一次
+        timeCount = setInterval("timeCountFn()", 1000);
+        //调用老鼠出现函数,每隔400毫秒就调用一次
+        mouseInOut = setInterval("mouseInOutFn()", 200);
+    }
+    //游戏开始函数
+    function startGames() {
+        if (gameRunning == true) {
+            //锤子立着
+            $(".containerLeft").mousedown(function () {
+                $(".containerLeft").css("cursor", "url(img/hammerDown.ico),auto");
+            });
+            //锤子倒下
+            $(".containerLeft").mouseup(function () {
+                $(".containerLeft").css("cursor", "url(img/hammerUp.ico),auto");
+            });
+            $(".one").click(function () {
+                //每个挡板被点击对随机数进行判断,如果是当前木桩,则满足条件
+                if (rand == 0 && (i == 3 || i == 4)) {
+                    //如果被击中,将图片修改为mouse4
+                    $("#gamepanel img").eq(rand).attr("src", "img/mouse4.png");
+                    //将i的值赋值为4,其实只要大于3就行,后续图片就不会再出来了
+                    //直接开始要下一个随机数
+                    i = 4;
+                    //分数增加10分
+                    score += 10;
+                    //将分数写入右边的分数栏
+                    $(".score_bottom").html(score);
+                }
+            });
+            $(".two").click(function () {
+                if (rand == 1 && (i == 3 || i == 4)) {
+                    //如果被击中,将图片修改为mouse4
+                    $("#gamepanel img").eq(rand).attr("src", "img/mouse4.png");
+                    //将i的值赋值为4,其实只要大于3就行,后续图片就不会再出来了
+                    //直接开始要下一个随机数
+                    i = 4;
+                    //分数增加10分
+                    score += 10;
+                    //将分数写入右边的分数栏
+                    $(".score_bottom").html(score);
+                }
+            });
+            $(".three").click(function () {
+                if (rand == 2 && (i == 3 || i == 4)) {
+                    //如果被击中,将图片修改为mouse4
+                    $("#gamepanel img").eq(rand).attr("src", "img/mouse4.png");
+                    //将i的值赋值为5,其实只要大于3就行,后续图片就不会再出来了
+                    //直接开始要下一个随机数
+                    i = 4;
+                    //分数增加10分
+                    score += 10;
+                    //将分数写入右边的分数栏
+                    $(".score_bottom").html(score);
+                }
+            });
+            $(".four").click(function () {
+                if (rand == 3 && (i == 3 || i == 4)) {
+                    //如果被击中,将图片修改为mouse4
+                    $("#gamepanel img").eq(rand).attr("src", "img/mouse4.png");
+                    //将i的值赋值为5,其实只要大于3就行,后续图片就不会再出来了
+                    //直接开始要下一个随机数
+                    i = 4;
+                    //分数增加10分
+                    score += 10;
+                    //将分数写入右边的分数栏
+                    $(".score_bottom").html(score);
+                }
+            });
+            $(".five").click(function () {
+                if (rand == 4 && (i == 3 || i == 4)) {
+                    //如果被击中,将图片修改为mouse4
+                    $("#gamepanel img").eq(rand).attr("src", "img/mouse4.png");
+                    //将i的值赋值为5,其实只要大于3就行,后续图片就不会再出来了
+                    //直接开始要下一个随机数
+                    i = 4;
+                    //分数增加10分
+                    score += 10;
+                    //将分数写入右边的分数栏
+                    $(".score_bottom").html(score);
+                }
+            });
+            $(".six").click(function () {
+                if (rand == 5 && (i == 3 || i == 4)) {
+                    //如果被击中,将图片修改为mouse4
+                    $("#gamepanel img").eq(rand).attr("src", "img/mouse4.png");
+                    //将i的值赋值为5,其实只要大于3就行,后续图片就不会再出来了
+                    //直接开始要下一个随机数
+                    i = 4;
+                    //分数增加10分
+                    score += 10;
+                    //将分数写入右边的分数栏
+                    $(".score_bottom").html(score);
+                }
+            });
+        }
+    }
+    //点击回到主菜单时的事件
+    $(".getScore_btn").click(function () {
+        //将页面全部刷新
+        location.reload();
+    });
+    exitGame.addEventListener("click", function () {
+        alert("请点击右上角的小红叉");
+    });
+</script>
+
+</html>

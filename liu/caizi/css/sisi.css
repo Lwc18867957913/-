@@ -1,0 +1,23 @@
+.ss {
+    width: 200px;
+    height: 200px;
+    background: red;
+    padding: 20%;
+    
+}
+
+.zz {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: white
+    
+        /* transform: scale(1.1); */
+
+
+}
+
+.zz:hover {
+    transform: scale(1.1);
+    transition: all .4s;
+}

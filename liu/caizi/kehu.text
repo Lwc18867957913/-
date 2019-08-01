@@ -1,0 +1,250 @@
+ <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/kehu.css">
+    <link rel="stylesheet" href="css/caizi/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="css/zxf_page.css" />
+
+
+
+
+
+
+
+
+
+            <div class="nei-tou">
+                <a href="index.html">
+                    主页
+                </a>
+                <p>/</p>
+                <p>页面</p>
+                <p>/</p>
+                <p>客户列表</p>
+            </div>
+            <div class="nei-nei-ron">
+                <div class="nei-xia">
+                    <div class="nei-xia-yi">
+                        <div class="nei-xia-shu">
+                            <i class="iconfont icon-sousuo1"></i>
+                            <input type="text" placeholder="请输入你要输入的文字">
+                        </div>
+                        <div class="nei-xia-er">
+                            <li><a href="#">所有联系人</a></li>
+                            <li><a href="#">联系方式</a></li>
+                            <li><a href="#">联系地址</a></li>
+                        </div>
+                    </div>
+                    <div class="nei-xia-yi-yi">
+                        <img src="img/1.png" alt="">
+                        <div class="nei-xia-yi-er">
+                            <ul class="nei-xia-yi-eryi">
+                                <li>胡歌</li>
+                                <li>最近联系：1 小时前</li>
+                            </ul>
+                            <ul class="nei-xia-yi-erer">
+                                <li>浙江省广州市越秀区中山六路109</li>
+                            </ul>
+                            <ul class="nei-xia-yi-ersan">
+                                <img src="img/2.png" alt="">
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nei-xia-yi-yi">
+                        <img src="img/1.png" alt="">
+                        <div class="nei-xia-yi-er">
+                            <ul class="nei-xia-yi-eryi">
+                                <li>胡歌</li>
+                                <li>最近联系：1 小时前</li>
+                            </ul>
+                            <ul class="nei-xia-yi-erer">
+                                <li>浙江省广州市越秀区中山六路109</li>
+                            </ul>
+                            <ul class="nei-xia-yi-ersan">
+                                <img src="img/2.png" alt="">
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nei-xia-yi-yi">
+                        <img src="img/1.png" alt="">
+                        <div class="nei-xia-yi-er">
+                            <ul class="nei-xia-yi-eryi">
+                                <li>胡歌</li>
+                                <li>最近联系：1 小时前</li>
+                            </ul>
+                            <ul class="nei-xia-yi-erer">
+                                <li>浙江省广州市越秀区中山六路109</li>
+                            </ul>
+                            <ul class="nei-xia-yi-ersan">
+                                <img src="img/2.png" alt="">
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nei-xia-yi-yi">
+                        <img src="img/1.png" alt="">
+                        <div class="nei-xia-yi-er">
+                            <ul class="nei-xia-yi-eryi">
+                                <li>胡歌</li>
+                                <li>最近联系：1 小时前</li>
+                            </ul>
+                            <ul class="nei-xia-yi-erer">
+                                <li>浙江省广州市越秀区中山六路109</li>
+                            </ul>
+                            <ul class="nei-xia-yi-ersan">
+                                <img src="img/2.png" alt="">
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nei-xia-yi-yi">
+                        <img src="img/1.png" alt="">
+                        <div class="nei-xia-yi-er">
+                            <ul class="nei-xia-yi-eryi">
+                                <li>胡歌</li>
+                                <li>最近联系：1 小时前</li>
+                            </ul>
+                            <ul class="nei-xia-yi-erer">
+                                <li>浙江省广州市越秀区中山六路109</li>
+                            </ul>
+                            <ul class="nei-xia-yi-ersan">
+                                <img src="img/2.png" alt="">
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nei-xia-yi-yi">
+                        <img src="img/1.png" alt="">
+                        <div class="nei-xia-yi-er">
+                            <ul class="nei-xia-yi-eryi">
+                                <li>胡歌</li>
+                                <li>最近联系：1 小时前</li>
+                            </ul>
+                            <ul class="nei-xia-yi-erer">
+                                <li>浙江省广州市越秀区中山六路109</li>
+                            </ul>
+                            <ul class="nei-xia-yi-ersan">
+                                <img src="img/2.png" alt="">
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nei-xia-yi-yi">
+                        <img src="img/1.png" alt="">
+                        <div class="nei-xia-yi-er">
+                            <ul class="nei-xia-yi-eryi">
+                                <li>胡歌</li>
+                                <li>最近联系：1 小时前</li>
+                            </ul>
+                            <ul class="nei-xia-yi-erer">
+                                <li>浙江省广州市越秀区中山六路109</li>
+                            </ul>
+                            <ul class="nei-xia-yi-ersan">
+                                <img src="img/2.png" alt="">
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nei-xia-yi-yi">
+                        <img src="img/1.png" alt="">
+                        <div class="nei-xia-yi-er">
+                            <ul class="nei-xia-yi-eryi">
+                                <li>胡歌</li>
+                                <li>最近联系：1 小时前</li>
+                            </ul>
+                            <ul class="nei-xia-yi-erer">
+                                <li>浙江省广州市越秀区中山六路109</li>
+                            </ul>
+                            <ul class="nei-xia-yi-ersan">
+                                <img src="img/2.png" alt="">
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nei-xia-yi-yi">
+                        <img src="img/1.png" alt="">
+                        <div class="nei-xia-yi-er">
+                            <ul class="nei-xia-yi-eryi">
+                                <li>胡歌</li>
+                                <li>最近联系：1 小时前</li>
+                            </ul>
+                            <ul class="nei-xia-yi-erer">
+                                <li>浙江省广州市越秀区中山六路109</li>
+                            </ul>
+                            <ul class="nei-xia-yi-ersan">
+                                <img src="img/2.png" alt="">
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nei-xia-yi-yi">
+                        <img src="img/1.png" alt="">
+                        <div class="nei-xia-yi-er">
+                            <ul class="nei-xia-yi-eryi">
+                                <li>胡歌</li>
+                                <li>最近联系：1 小时前</li>
+                            </ul>
+                            <ul class="nei-xia-yi-erer">
+                                <li>浙江省广州市越秀区中山六路109</li>
+                            </ul>
+                            <ul class="nei-xia-yi-ersan">
+                                <img src="img/2.png" alt="">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="zxf_pagediv" style="padding:0 0 0 20%"></div>
+      
+
+
+
+
+
+
+
+
+
+
+
+<script src="jquery/jquery-1.12.4.js"></script>
+
+<script>
+    $(window).resize(() => {
+        $(window).width() <= 990 ? $('.right-column').width('0px') : $('.right-column').width('240px')
+        $(window).width() <= 990 ? $('.shuo').css({ "opacity": '0' }) : $('.shuo').css({ "opacity": '1' })
+        $(window).width() <= 990 ? $('.head').css({ "padding-left": '0px' }) : $('.head').css({ "padding-left": '240px' })
+        $(window).width() <= 990 ? $('.logo').css({ "left": '-240px' }) : $('.logo').css({ "left": '0px' })
+        $(window).width() <= 990 ? $('.nei').css({ "padding-left": '0px' }) : $('.nei').css({ "padding-left": '240px' })
+    })
+    $(window).width() <= 990 ? $('.right-column').width('0px') : $('.right-column').width('240px')
+    $(window).width() <= 990 ? $('.head').css({ "padding-left": '0px' }) : $('.head').css({ "padding-left": '240px' })
+    $(window).width() <= 990 ? $('.nei').css({ "padding-left": '0px' }) : $('.nei').css({ "padding-left": '240px' })
+</script>
+<script>
+    $('.nei-xia-er li:nth-child(1)').click(() => {
+        $('.nei-xia-er li:nth-child(1)').css("border-bottom", '2px solid #009688')
+        $('.nei-xia-er li:nth-child(2)').css("border-bottom", '0px solid #009688')
+        $('.nei-xia-er li:nth-child(3)').css("border-bottom", '0px solid #009688')
+    })
+
+    $('.nei-xia-er li:nth-child(2)').click(() => {
+        $('.nei-xia-er li:nth-child(1)').css("border-bottom", '0px solid #009688')
+        $('.nei-xia-er li:nth-child(2)').css("border-bottom", '2px solid #009688')
+        $('.nei-xia-er li:nth-child(3)').css("border-bottom", '0px solid #009688')
+    })
+
+    $('.nei-xia-er li:nth-child(3)').click(() => {
+        $('.nei-xia-er li:nth-child(1)').css("border-bottom", '0px solid #009688')
+        $('.nei-xia-er li:nth-child(2)').css("border-bottom", '0px solid #009688')
+        $('.nei-xia-er li:nth-child(3)').css("border-bottom", '3px solid #009688')
+    })
+</script>
+
+
+
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="js/zxf_page.js"></script>
+<script type="text/javascript">
+    //翻页
+    $(".zxf_pagediv").createPage({
+        pageNum: 20,
+        current: 6,
+        backfun: function (e) {
+            //console.log(e);//回调
+        }
+    });
+</script>

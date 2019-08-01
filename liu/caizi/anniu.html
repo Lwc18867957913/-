@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <script src="script/echarts.js"></script>
+    <link rel="stylesheet" href="css/anniu.css">
+    <link rel="stylesheet" href="css/iconfont1.css">
+</head>
+
+<body>
+    <div class="right-column">
+        <!--  侧边导航栏 -->
+        <div class="right-box">
+            <div class="logo">layuiAdmin Pro</div>
+            <dl class="list_dl">
+                <dt class="list_dt">
+                    <span class="_after"></span>
+                    <span>
+                        <div class="iconfont icon-zhuye"></div>
+                    </span>
+                    <span class="shuo">
+                        <p>主页</p>
+                        <i class="iconfont icon-zelvxuanzefeiyongdaosanjiaoxingfandui"></i>
+                    </span>
+
+                </dt>
+                <dd class="list_dd">
+                    <ul>
+                        <li class="list_li"><a href="index.html">控制台</a></li>
+                        <li class="list_li"><a href="zhuyeyi.html">主页一</a></li>
+                        <li class="list_li">主页二</li>
+                    </ul>
+                </dd>
+                <dt class="list_dt">
+                    <span class="_after"></span>
+                    <span>
+                        <div class="iconfont icon-chat"></div>
+                    </span>
+                    <span class="shuo">
+                        <p>组件</p>
+                        <i class="iconfont icon-zelvxuanzefeiyongdaosanjiaoxingfandui"></i>
+                    </span>
+
+                </dt>
+                <dd class="list_dd">
+                    <ul>
+                <dt class="list_dtt">
+                    <p>栅格</p>
+                    <i class="iconfont icon-zelvxuanzefeiyongdaosanjiaoxingfandui"></i>
+                </dt>
+                <dd class="list_dd">
+                    <ul>
+                        <li class="list_lii">等比例列表排列</li>
+                        <li class="list_lii">按移动端排列</li>
+                        <li class="list_lii">移动桌面端组合</li>
+                        <li class="list_lii">全端复杂组合</li>
+                        <li class="list_lii">低于桌面堆叠排列</li>
+                        <li class="list_lii">九宫格</li>
+                    </ul>
+                </dd>
+                <li class="list_li"><a href="anniu.html">按钮</a></li>
+                <dt class="list_dtt">
+                    <p>表单</p>
+                    <i class="iconfont icon-zelvxuanzefeiyongdaosanjiaoxingfandui"></i>
+                </dt>
+                <dd class="list_dd">
+                    <ul>
+                        <li class="list_lii">表单元素</li>
+                        <li class="list_lii">表单组合</li>
+                    </ul>
+                </dd>
+                <li class="list_li">导航</li>
+                <li class="list_li">选项卡</li>
+                <li class="list_li"><a href="jindutiao.html">进度条</a></li>
+                <li class="list_li"><a href="mianban.html">面板</a></li>
+                <li class="list_li">徽章</li>
+                <li class="list_li">时间线</li>
+                <li class="list_li">动画</li>
+                <li class="list_li">辅助</li>
+                <dt class="list_dtt">
+                    <p>通用弹层</p>
+                    <i class="iconfont icon-zelvxuanzefeiyongdaosanjiaoxingfandui"></i>
+                </dt>
+                <dd class="list_dd">
+                    <ul>
+                        <li class="list_lii">功能演示</li>
+                        <li class="list_lii">特定示例</li>
+                        <li class="list_lii">风格定制</li>
+                    </ul>
+                </dd>
+                <dt class="list_dtt">
+                    <p>日期时间</p>
+                    <i class="iconfont icon-zelvxuanzefeiyongdaosanjiaoxingfandui"></i>
+                </dt>
+                <dd class="list_dd">
+                    <ul>
+                        <li class="list_lii">功能演示一</li>
+                        <li class="list_lii">功能演示二</li>
+                        <li class="list_lii">设定主题</li>
+                        <li class="list_lii">特殊示例</li>
+                    </ul>
+                </dd>
+                <dt class="list_dtt">
+                    <p>表格</p>
+                    <i class="iconfont icon-zelvxuanzefeiyongdaosanjiaoxingfandui"></i>
+                </dt>
+                <dd class="list_dd">
+                    <ul>
+                        <li class="list_lii">简单数据表格</li>
+                        <li class="list_lii">列宽自动分配</li>
+                        <li class="list_lii">赋值已知数据</li>
+                        <li class="list_lii">转化静态表格</li>
+                        <li class="list_lii">开启分页</li>
+                        <li class="list_lii">自定义分页</li>
+                        <li class="list_lii">开启头部工具栏</li>
+                        <li class="list_lii">开启合计行</li>
+                        <li class="list_lii">高度最大适应</li>
+                        <li class="list_lii">开启复选框</li>
+                        <li class="list_lii">开启单选框</li>
+                        <li class="list_lii">开启单元个编辑</li>
+                        <li class="list_lii">加入表单元素</li>
+                        <li class="list_lii">设置单元格样式</li>
+                        <li class="list_lii">固定列</li>
+                        <li class="list_lii">数据操作</li>
+                        <li class="list_lii">解析任意数据格式</li>
+                        <li class="list_lii">监听行事件</li>
+                        <li class="list_lii">数据表格的重载</li>
+                        <li class="list_lii">设置初始排序</li>
+                        <li class="list_lii">监听单元格事件</li>
+                        <li class="list_lii">复杂表头</li>
+                    </ul>
+                </dd>
+                <dt class="list_dtt">
+                    <p>分页</p>
+                    <i class="iconfont icon-zelvxuanzefeiyongdaosanjiaoxingfandui"></i>
+                </dt>
+                <dd class="list_dd">
+                    <ul>
+                        <li class="list_lii">功能演示一</li>
+                        <li class="list_lii">功能演示二</li>
+                    </ul>
+                </dd>
+                <dt class="list_dtt">
+                    <p>上传</p>
+                    <i class="iconfont icon-zelvxuanzefeiyongdaosanjiaoxingfandui"></i>
+                </dt>
+                <dd class="list_dd">
+                    <ul>
+                        <li class="list_lii">功能演示一</li>
+                        <li class="list_lii">功能演示二</li>
+                    </ul>
+                </dd>
+                <li class="list_li">颜色选择器</li>
+                <li class="list_li">滑块组件</li>
+                <li class="list_li">评分</li>
+                <li class="list_li">轮播</li>
+                <li class="list_li">流加载</li>
+                <li class="list_li">工具</li>
+                <li class="list_li">代码修饰</li>
+                <li class="list_li">即时聊天</li>
+                </ul>
+                </dd>
+                <dt class="list_dt">
+                    <span class="_after"></span>
+                    <span>
+                        <div class="iconfont icon-template"></div>
+                    </span>
+
+                    <span class="shuo">
+                        <p>页面</p>
+                        <i class="iconfont icon-zelvxuanzefeiyongdaosanjiaoxingfandui"></i>
+                    </span>
+
+                </dt>
+                <dd class="list_dd">
+                    <ul>
+                        <li class="list_li">个人主页</li>
+                        <li class="list_li"><a href="tonxun.html">通讯录</a></li>
+                        <li class="list_li"><a href="kehu.html">客户列表</a></li>
+                        <li class="list_li"><a href="shangpin.html">商品列表</a></li>
+                        <li class="list_li">留言板</li>
+                        <li class="list_li">收索结果</li>
+                        <li class="list_li">注册</li>
+                        <li class="list_li">登录</li>
+                        <li class="list_li">忘记密码</li>
+                        <li class="list_li">404</li>
+                        <li class="list_li">错误提示</li>
+                <dt class="list_dtt">
+                    <p>内嵌页面</p>
+                    <i class="iconfont icon-zelvxuanzefeiyongdaosanjiaoxingfandui"></i>
+                </dt>
+                <dd class="list_dd">
+                    <ul>
+                        <li class="list_lii">百度一下</li>
+                        <li class="list_lii">layui官网</li>
+                        <li class="list_lii">layuiAdmin官网</li>
+                    </ul>
+                </dd>
+
+                </ul>
+                </dd>
+                <dt class="list_dt">
+                    <span class="_after"></span>
+                    <span>
+                        <div class="iconfont icon-quanping"></div>
+                    </span>
+                    <span class="shuo">
+                        <p>应用</p>
+                        <i class="iconfont icon-zelvxuanzefeiyongdaosanjiaoxingfandui"></i>
+                    </span>
+
+                </dt>
+                <dd class="list_dd">
+                    <ul>
+                <dt class="list_dtt">
+                    <p>内容系统</p>
+                    <i class="iconfont icon-zelvxuanzefeiyongdaosanjiaoxingfandui"></i>
+                </dt>
+                <dd class="list_dd">
+                    <ul>
+                        <li class="list_lii">文章列表</li>
+                        <li class="list_lii">分类管理</li>
+                        <li class="list_lii">评论管理</li>
+                    </ul>
+                </dd>
+                <dt class="list_dtt">
+                    <p>社区系统</p>
+                    <i class="iconfont icon-zelvxuanzefeiyongdaosanjiaoxingfandui"></i>
+                </dt>
+                <dd class="list_dd">
+                    <ul>
+                        <li class="list_lii">帖子列表</li>
+                        <li class="list_lii">回帖列表</li>
+                    </ul>
+                </dd>
+                <li class="list_li">消息中心</li>
+                <li class="list_li">工单系统</li>
+                </ul>
+                </dd>
+                <dt class="list_dt">
+                    <span class="_after"></span>
+                    <span>
+                        <div class="iconfont icon-dashboard_line"></div>
+                    </span>
+                    <span class="shuo">
+                        <p>高级</p>
+                        <i class="iconfont icon-zelvxuanzefeiyongdaosanjiaoxingfandui"></i>
+                    </span>
+
+                </dt>
+                <dd class="list_dd">
+                    <ul>
+                        <li class="list_li">通讯系统</li>
+                <dt class="list_dtt">
+                    <p>社区系统</p>
+                    <i class="iconfont icon-zelvxuanzefeiyongdaosanjiaoxingfandui"></i>
+                </dt>
+                <dd class="list_dd">
+                    <ul>
+                        <li class="list_lii">折线图</li>
+                        <li class="list_lii">柱状图</li>
+                        <li class="list_lii">地图</li>
+                    </ul>
+                </dd>
+                </ul>
+                </dd>
+                <dt class="list_dt">
+                    <span class="_after"></span>
+                    <span>
+                        <div class="iconfont icon-user"></div>
+                    </span>
+                    <span class="shuo">
+                        <p>用户</p>
+                        <i class="iconfont icon-zelvxuanzefeiyongdaosanjiaoxingfandui"></i>
+                    </span>
+
+                </dt>
+                <dd class="list_dd">
+                    <ul>
+                        <li class="list_li">网站用户</li>
+                        <li class="list_li">后台管理</li>
+                        <li class="list_li">角色管理</li>
+                    </ul>
+                </dd>
+                <dt class="list_dt">
+                    <span class="_after"></span>
+                    <span>
+                        <div class="iconfont icon-shezhi"></div>
+                    </span>
+                    <span class="shuo">
+                        <p>设置</p>
+                        <i class="iconfont icon-zelvxuanzefeiyongdaosanjiaoxingfandui"></i>
+                    </span>
+
+                </dt>
+                <dd class="list_dd">
+                    <ul>
+                <dt class="list_dtt">
+                    <p>系统设置</p>
+                    <i class="iconfont icon-zelvxuanzefeiyongdaosanjiaoxingfandui"></i>
+                </dt>
+                <dd class="list_dd">
+                    <ul>
+                        <li class="list_lii">网站设置</li>
+                        <li class="list_lii">邮件设置</li>
+                    </ul>
+                </dd>
+                <dt class="list_dtt">
+                    <p>我的设置</p>
+                    <i class="iconfont icon-zelvxuanzefeiyongdaosanjiaoxingfandui"></i>
+                </dt>
+                <dd class="list_dd">
+                    <ul>
+                        <li class="list_lii">基本资料</li>
+                        <li class="list_lii" id="uuuuuuuuuuu">修改密码</li>
+                    </ul>
+                </dd>
+                </ul>
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <div class="head">
+        <!-- 头部 -->
+        <div class="head-left">
+            <a href="#"><i class="iconfont icon-liebiaoshouqi"></i></a>
+            <a href="#"><i class="iconfont icon-wangluo"></i></a>
+            <a href=""><i class="iconfont icon-shuaxin"></i></a>
+            <div class="head-left-search">
+                <input type="text" placeholder="搜索...">
+            </div>
+        </div>
+        <div class="head-right">
+            <a href="#"><i class="iconfont icon-lingdang"></i></a>
+            <a href="#"><i class="iconfont icon-747bianjiqi_tuya"></i></a>
+            <a href="#"><i class="iconfont icon-biaoqian"></i></a>
+            <a href="#"><i class="iconfont icon-quanping"></i></a>
+            <div class="head-right-name">贤心<i class="iconfont icon-zelvxuanzefeiyongdaosanjiaoxingfandui"></i></div>
+            <a href="#"><i class="iconfont icon-moreif"></i></a>
+        </div>
+    </div>
+    <div class="nei">
+        <div class="nei-box">
+            <div class="nei-tou">
+                <a href="index.html">
+                    主页
+                </a>
+                <p>/</p>
+                <p>组件</p>
+                <p>/</p>
+                <p>按钮</p>
+            </div>
+            <div class="nei-diyi-box">
+                <div class="nei-diyi">
+                    <div class="nei-diyi-left">
+                        <div class="nei-diyi-left-box">
+                            <div class="TopIntroduction">
+                                <p>按钮主题</p>
+                            </div>
+                            <div class="anniu">
+                                <button class="anniu-doushi yiyi">原始按钮</button>
+                                <button class="anniu-doushi doushi">默认按钮</button>
+                                <button class="anniu-doushi cc">百搭按钮</button>
+                                <button class="anniu-doushi warm">暖色按钮</button>
+                                <button class="anniu-doushi danger">警告按钮</button>
+                                <button class="anniu-doushi disabled">禁用按钮</button>
+                            </div>
+                        </div>
+                        <div class="nei-diyi-left-box">
+                            <div class="TopIntroduction">
+                                <p>按钮尺寸</p>
+                            </div>
+                            <div class="anniu">
+                                <button class="anniu-doushi yiyi wuyu">大型按钮</button>
+                                <button class="anniu-doushi yiyi doushihh">默认按钮</button>
+                                <button class="anniu-doushi yiyi smallhh">小型按钮</button>
+                                <button class="anniu-doushi yiyi minihh">迷你按钮</button>
+                                <br>
+                                <button class="anniu-doushi doushi wuyu-two">大型按钮</button>
+                                <button class="anniu-doushi doushi doushihh-two">默认按钮</button>
+                                <button class="anniu-doushi doushi smallhh-two">小型按钮</button>
+                                <button class="anniu-doushi doushi minihh-two">迷你按钮</button>
+                                <br>
+                                <button class="anniu-doushi cc wuyu-three">大型按钮</button>
+                                <button class="anniu-doushi cc doushihh-three">默认按钮</button>
+                                <button class="anniu-doushi cc smallhh-three">小型按钮</button>
+                                <button class="anniu-doushi cc minihh-three">迷你按钮</button>
+                            </div>
+                        </div>
+                        <div class="nei-diyi-left-box">
+                            <div class="TopIntroduction">
+                                <p>按钮尺寸</p>
+                            </div>
+                            <div class="anniu">
+                                <button class="anniu-doushi doushi-green"><i
+                                        class="iconfont icon-star_full"></i></button>
+                                <button class="anniu-doushi doushi-green"><i
+                                        class="iconfont icon-icon-copy"></i></button>
+                                <button class="anniu-doushi doushi-green"><i class="iconfont icon-icon"></i></button>
+                                <button class="anniu-doushi doushi-green"><i class="iconfont icon-qianbi"></i></button>
+                                <button class="anniu-doushi doushi-green"><i
+                                        class="iconfont icon-lajitong"></i></button>
+                                <button class="anniu-doushi doushi-green"><i
+                                        class="iconfont icon-fenxiang"></i></button>
+                                <br>
+                                <button class="anniu-doushi doushi-orange"><i
+                                        class="iconfont icon-star_full"></i></button>
+                                <button class="anniu-doushi doushi-orange"><i
+                                        class="iconfont icon-icon-copy"></i></button>
+                                <button class="anniu-doushi doushi-orange"><i class="iconfont icon-icon"></i></button>
+                                <button class="anniu-doushi doushi-orange"><i class="iconfont icon-qianbi"></i></button>
+                                <button class="anniu-doushi doushi-orange"><i
+                                        class="iconfont icon-lajitong"></i></button>
+                                <button class="anniu-doushi doushi-orange"><i
+                                        class="iconfont icon-fenxiang"></i></button>
+                                <br>
+                                <button class="anniu-doushi doushi-white"><i
+                                        class="iconfont icon-star_full"></i></button>
+                                <button class="anniu-doushi doushi-white"><i
+                                        class="iconfont icon-icon-copy"></i></button>
+                                <button class="anniu-doushi doushi-white"><i class="iconfont icon-icon"></i></button>
+                                <button class="anniu-doushi doushi-white"><i class="iconfont icon-qianbi"></i></button>
+                                <button class="anniu-doushi doushi-white"><i
+                                        class="iconfont icon-lajitong"></i></button>
+                                <button class="anniu-doushi doushi-white"><i
+                                        class="iconfont icon-fenxiang"></i></button>
+                                <br>
+                                <button class="anniu-doushi doushi-small"><i
+                                        class="iconfont icon-star_full"></i></button>
+                                <button class="anniu-doushi doushi-small"><i
+                                        class="iconfont icon-icon-copy"></i></button>
+                                <button class="anniu-doushi doushi-small"><i class="iconfont icon-icon"></i></button>
+                                <button class="anniu-doushi doushi-small"><i class="iconfont icon-qianbi"></i></button>
+                                <button class="anniu-doushi doushi-small"><i
+                                        class="iconfont icon-lajitong"></i></button>
+                                <button class="anniu-doushi doushi-small"><i
+                                        class="iconfont icon-fenxiang"></i></button>
+                                <br>
+                                <button class="anniu-doushi doushi-blue"><i
+                                        class="iconfont icon-star_full"></i></button>
+                                <button class="anniu-doushi doushi-blue"><i
+                                        class="iconfont icon-icon-copy"></i></button>
+                                <button class="anniu-doushi doushi-blue"><i class="iconfont icon-icon"></i></button>
+                                <button class="anniu-doushi doushi-blue"><i class="iconfont icon-qianbi"></i></button>
+                                <button class="anniu-doushi doushi-blue"><i class="iconfont icon-lajitong"></i></button>
+                                <button class="anniu-doushi doushi-blue"><i class="iconfont icon-fenxiang"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nei-diyi-right">
+                        <div class="nei-diyi-left-box">
+                            <div class="TopIntroduction">
+                                <p>按钮主题</p>
+                            </div>
+                            <div class="anniu">
+                                <button class="anniu-doushi yiyi Ellipse-yiyi">原始按钮</button>
+                                <button class="anniu-doushi doushi Ellipse-doushi">默认按钮</button>
+                                <button class="anniu-doushi cc Ellipse-cc">百搭按钮</button>
+                                <button class="anniu-doushi warm Ellipse-warm">暖色按钮</button>
+                                <button class="anniu-doushi danger Ellipse-danger">警告按钮</button>
+                                <button class="anniu-doushi disabled Ellipse-disabled">禁用按钮</button>
+                            </div>
+                        </div>
+                        <div class="nei-diyi-left-box">
+                            <div class="TopIntroduction">
+                                <p>按钮主题</p>
+                            </div>
+                            <div class="anniu">
+                                <button class="anniu-doushi yiyi Ellipse-yiyi wuyu">原始按钮</button>
+                                <button class="anniu-doushi doushi">跳转的按钮</button>
+                                <button class="anniu-doushi cc smallhh"><i
+                                        class="iconfont icon-lajitong lj"></i>删除</button>
+                                <button class="anniu-doushi disabled minihh"><i
+                                        class="iconfont icon-fenxiang fx"></i>分享</button>
+                            </div>
+                        </div>
+                        <div class="nei-diyi-left-box">
+                            <div class="TopIntroduction">
+                                <p>按钮组合</p>
+                            </div>
+                            <div class="anniu">
+                                <div class="anniu-container">
+                                    <div class="anniu-group">
+                                        <button class="anniu-doushi">增加</button>
+                                        <button class="anniu-doushi">编辑</button>
+                                        <button class="anniu-doushi">删除</button>
+                                    </div>
+                                </div>
+                                <div class="anniu-container">
+                                    <div class="anniu-group">
+                                        <button class="anniu-doushi doushi-small doushi-small-clear"><i
+                                                class="iconfont icon-star_full"></i></button>
+                                        <button class="anniu-doushi doushi-small doushi-small-clear"><i
+                                                class="iconfont icon-qianbi"></i></button>
+                                        <button class="anniu-doushi doushi-small doushi-small-clear"><i
+                                                class="iconfont icon-lajitong"></i></button>
+                                        <button class="anniu-doushi doushi-small doushi-small-cleara"><i
+                                                class="iconfont icon-icon"></i></button>
+
+                                        <button
+                                            class="anniu-doushi doushi-white doushi-small doushi-small-clear1">文字</button>
+                                        <button class="anniu-doushi doushi-white  doushi-small doushi-small-clear"><i
+                                                class="iconfont icon-increase"></i></button>
+                                        <button class="anniu-doushi doushi-white  doushi-small doushi-small-clear"><i
+                                                class="iconfont icon-qianbi"></i></button>
+                                        <button class="anniu-doushi doushi-white  doushi-small doushi-small-cleara"><i
+                                                class="iconfont icon-lajitong"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nei-diyi-left-box">
+                            <div class="TopIntroduction">
+                                <p>按钮尺寸</p>
+                            </div>
+                            <div class="anniu">
+                                <button class="anniu-doushi doushi-fluid">好雨知时节</button>
+                                <br>
+                                <button class="anniu-doushi doushi-fluid">当春乃发生</button>
+                                <br>
+                                <button class="anniu-doushi doushi-fluid">随风潜入夜</button>
+                                <br>
+                                <button class="anniu-doushi doushi-fluid">润物细无声</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="jquery/jquery-1.12.4.js"></script>
+<script src="js.js"></script>
+<script>
+    $(window).resize(() => {
+        $(window).width() <= 990 ? $('.right-column').width('0px') : $('.right-column').width('240px')
+        $(window).width() <= 990 ? $('.shuo').css({ "opacity": '0' }) : $('.shuo').css({ "opacity": '1' })
+        $(window).width() <= 990 ? $('.head').css({ "padding-left": '0px' }) : $('.head').css({ "padding-left": '240px' })
+        $(window).width() <= 990 ? $('.logo').css({ "left": '-240px' }) : $('.logo').css({ "left": '0px' })
+        $(window).width() <= 990 ? $('.nei-box').css({ "padding-left": '0px' }) : $('.nei-box').css({ "padding-left": '240px' })
+    })
+    $(window).width() <= 990 ? $('.right-column').width('0px') : $('.right-column').width('240px')
+    $(window).width() <= 990 ? $('.head').css({ "padding-left": '0px' }) : $('.head').css({ "padding-left": '240px' })
+    $(window).width() <= 990 ? $('.nei-box').css({ "padding-left": '0px' }) : $('.nei-box').css({ "padding-left": '240px' })
+</script>
+
+</html>

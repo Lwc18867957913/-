@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="dishu.css">
+</head>
+
+<body>
+    <div class="kuanjia">
+        <button class="anniu" type="button">开始游戏</button>
+        <div class="shijian">
+        </div>
+        <div class="fenshu">
+
+        </div>
+        <ul class="kuanjia-don">
+            <li>
+                <img class="kuanjia-don-yiq" src="img/1.png" alt="">
+            </li>
+        </ul>
+        <ul class="kuanjia-don">
+            <li>
+                <img class="kuanjia-don-yiw" src="img/1.png" alt="">
+            </li>
+        </ul>
+        <ul class="kuanjia-don">
+            <li>
+                <img class="kuanjia-don-yie" src="img/1.png" alt="">
+            </li>
+        </ul>
+        <ul class="kuanjia-don">
+            <li>
+                <img class="kuanjia-don-yir" src="img/1.png" alt="">
+            </li>
+        </ul>
+        <ul class="kuanjia-don">
+            <li>
+                <img class="kuanjia-don-yit" src="img/1.png" alt="">
+            </li>
+        </ul>
+        <ul class="kuanjia-don">
+            <li>
+                <img class="kuanjia-don-yiy" src="img/1.png" alt="">
+            </li>
+        </ul>
+        <ul class="kuanjia-don">
+            <li>
+                <img class="kuanjia-don-yiu" src="img/1.png" alt="">
+            </li>
+        </ul>
+        <ul class="kuanjia-don">
+            <li>
+                <img class="kuanjia-don-yii" src="img/1.png" alt="">
+            </li>
+        </ul>
+        <ul class="kuanjia-don">
+            <li>
+                <img class="kuanjia-don-yio" src="img/1.png" alt="">
+            </li>
+        </ul>
+    </div>
+</body>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script>
+    $('.anniu').click(() => {
+        $('.fenshu').html("0")
+        var time = 20;
+        var Method = setInterval(function () {
+            var arr = [".kuanjia-don-yiq", ".kuanjia-don-yiw", ".kuanjia-don-yie", ".kuanjia-don-yir", ".kuanjia-don-yit", ".kuanjia-don-yiy", ".kuanjia-don-yiu", ".kuanjia-don-yii", ".kuanjia-don-yio"];
+            var index = Math.floor((Math.random() * arr.length));
+            if (time >= 0) {
+                $('.shijian').html(time);
+                $(arr[index]).css("top", '0')
+
+                time--;
+                setTimeout(function () {
+                    $(arr[index]).animate({ "top": '100%' }, 300)
+                }, 1250)
+            } else {
+                clearInterval(Method);
+                alert('游戏结束');
+            }
+        }, 500);
+
+    })
+    var fen = 0;
+    $(".kuanjia-don li img").click(function () {
+        $(this).css("top", '100%')
+        fen += 1;
+        $('.fenshu').html(fen);
+    });
+
+
+
+
+
+</script>
+
+</html>
