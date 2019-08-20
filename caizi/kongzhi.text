@@ -1,0 +1,607 @@
+ <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/zz.css">
+
+
+
+
+
+
+
+
+            <!-- 内容 -->
+            <div class="nei-yi">
+                <!--  内容左边 -->
+                <div class="nei-yi-yi">
+                    <div class="nei-yi-yi-kai">
+                        <ul class="nei-yi-yii">
+                            <p>快捷方式</p>
+                            <div class="nei-yi-ku">
+                                <li class="nei-qie"></li>
+                                <li class="nei-qiee"></li>
+                            </div>
+                        </ul>
+                        <div class="nei-yid">
+                            <ul class="nei-yi-yie">
+                                <li>
+                                    <div class="nei-yi-kt iconfont icon-dashboard_line"></div>
+                                    <div class="nei-yi-jw">主页一</div>
+                                </li>
+                                <li>
+                                    <div class="nei-yi-kt iconfont icon-chart"></div>
+                                    <div class="nei-yi-jw">主页二</div>
+                                </li>
+                                <li>
+                                    <div class="nei-yi-kt iconfont icon-template"></div>
+                                    <div class="nei-yi-jw">弹层</div>
+                                </li>
+                                <li>
+                                    <div class="nei-yi-kt iconfont icon-chat"></div>
+                                    <div class="nei-yi-jw">聊天</div>
+                                </li>
+                                <li>
+                                    <div class="nei-yi-kt iconfont icon-zhinanzhen"></div>
+                                    <div class="nei-yi-jw">进度条</div>
+                                </li>
+                                <li>
+                                    <div class="nei-yi-kt iconfont icon-survey"></div>
+                                    <div class="nei-yi-jw">工单</div>
+                                </li>
+                                <li>
+                                    <div class="nei-yi-kt iconfont icon-user"></div>
+                                    <div class="nei-yi-jw">用户</div>
+                                </li>
+                                <li>
+                                    <div class="nei-yi-kt iconfont icon-shezhi"></div>
+                                    <div class="nei-yi-jw">设置</div>
+                                </li>
+                            </ul>
+                            <ul class="nei-yi-yiei">
+
+                                <li>
+                                    <div class="nei-yi-kt iconfont icon-shezhi"></div>
+                                    <div class="nei-yi-jw">主页一</div>
+                                </li>
+                                <li>
+                                    <div class="nei-yi-kt iconfont icon-shezhi"></div>
+                                    <div class="nei-yi-jw">主页二</div>
+                                </li>
+                                <li>
+                                    <div class="nei-yi-kt iconfont icon-shezhi"></div>
+                                    <div class="nei-yi-jw">弹层</div>
+                                </li>
+                                <li>
+                                    <div class="nei-yi-kt iconfont icon-shezhi"></div>
+                                    <div class="nei-yi-jw">聊天</div>
+                                </li>
+                                <li>
+                                    <div class="nei-yi-kt iconfont icon-shezhi"></div>
+                                    <div class="nei-yi-jw">进度条</div>
+                                </li>
+                                <li>
+                                    <div class="nei-yi-kt iconfont icon-shezhi"></div>
+                                    <div class="nei-yi-jw">工单</div>
+                                </li>
+                                <li>
+                                    <div class="nei-yi-kt iconfont icon-shezhi"></div>
+                                    <div class="nei-yi-jw">用户</div>
+                                </li>
+                                <li>
+                                    <div class="nei-yi-kt iconfont icon-shezhi"></div>
+                                    <div class="nei-yi-jw">设置</div>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="nei-yi-yi">
+                    <ul class="nei-yi-yii">
+                        <p>待办事项</p>
+                        <div class="nei-yi-ku">
+                            <li class="nei-qiek"></li>
+                            <li class="nei-qieet"></li>
+                        </div>
+                    </ul>
+                    <div class="nei-yi-yiz">
+                        <ul class="nei-yi-yiee" style="transform: 0.5s">
+                            <li>
+                                <p>待审评论</p>
+                                <p>66</p>
+                            </li>
+                            <li>
+                                <p>待审帖子</p>
+                                <p>12</p>
+                            </li>
+                            <li>
+                                <p>待审商品</p>
+                                <p>99</p>
+                            </li>
+                            <li>
+                                <p>代发货</p>
+                                <p>20</p>
+                            </li>
+                        </ul>
+
+                        <ul class="nei-yi-yieey" style="transform: 0.5s">
+                            <li>
+                                <p>待审评论</p>
+                                <p>66</p>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+
+
+                </div>
+                <div class="nei-bao">
+                    <div class="nei-zhe">
+                        <ul class="nei-yi-yii">
+                            <p>数据概览</p>
+                            <div class="nei-yi-ku">
+                                <li class="nei-qien"></li>
+                                <li class="nei-qieem"></li>
+                                <li class="nei-qies"></li>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="nei-zhe-y">
+                        <div class="nei-tu-zhon">今日流量趋势</div>
+                        <div class="nei-liange-biaogeyd">
+                            <div id="container" style="height: 100%"></div>
+                            <div id="containerr" style="height: 100%"></div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="nei-baoo">
+                    <div class="nei-zhe-s">
+                        <div id="bottomtab">
+                            <ul id="bottomtab-ul">
+                                <li>今日热搜</li>
+                                <li>今日热帖</li>
+                            </ul>
+                            <div id="bottomtab-content">
+                                <table style="border-collapse:collapse;">
+                                    <tr style="background: rgb(242, 242, 242)">
+                                        <td style="width:6%"></td>
+                                        <td>关键词</td>
+                                        <td>搜索次数</td>
+                                        <td style="margin-right:20px">用户数</td>
+                                    </tr>
+                                    <tr class="nei-liebiaok">
+                                        <td>1</td>
+                                        <td style="color: #01AAED">贤心是男是女</td>
+                                        <td>8520</td>
+                                        <td>2216</td>
+                                    </tr>
+                                    <tr class="nei-liebiaok">
+                                        <td>2</td>
+                                        <td style="color: #01AAED">Java程序员能找到女朋友吗</td>
+                                        <td>666</td>
+                                        <td>33</td>
+                                    </tr>
+                                    <tr class="nei-liebiaok">
+                                        <td>3</td>
+                                        <td style="color: #01AAED">此表格是静态模拟数据</td>
+                                        <td>666</td>
+                                        <td>33</td>
+                                    </tr>
+                                    <tr class="nei-liebiaok">
+                                        <td>4</td>
+                                        <td style="color: #01AAED">layui官方教程</td>
+                                        <td>666</td>
+                                        <td>33</td>
+                                    </tr>
+                                    <tr class="nei-liebiaok">
+                                        <td>5</td>
+                                        <td style="color: #01AAED">layui官方教程</td>
+                                        <td>666</td>
+                                        <td>33</td>
+                                    </tr>
+                                    <tr class="nei-liebiaok">
+                                        <td>6</td>
+                                        <td style="color: #01AAED">layui官方教程</td>
+                                        <td>666</td>
+                                        <td>33</td>
+                                    </tr>
+                                    <tr class="nei-liebiaok">
+                                        <td>7</td>
+                                        <td style="color: #01AAED">layui官方教程</td>
+                                        <td>666</td>
+                                        <td>33</td>
+                                    </tr>
+                                    <tr class="nei-liebiaok">
+                                        <td>8</td>
+                                        <td style="color: #01AAED">layui官方教程</td>
+                                        <td>666</td>
+                                        <td>33</td>
+                                    </tr>
+                                    <tr class="nei-liebiaok">
+                                        <td>9</td>
+                                        <td style="color: #01AAED">layui官方教程</td>
+                                        <td>666</td>
+                                        <td>33</td>
+                                    </tr>
+                                    <tr class="nei-liebiaok">
+                                        <td>10</td>
+                                        <td style="color: #01AAED">layui官方教程</td>
+                                        <td>666</td>
+                                        <td>33</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="nei-er">
+                <!-- 内容右边 -->
+                <div class="nei-ery">
+                    <div class="nei-er-y">
+                        <p>版本信息</p>
+                    </div>
+                    <div class="nei-er-e">
+                        <table>
+                            <tr>
+                                <td>当前版本</td>
+                                <td>v1.2.1 pro<a href="" style="color: #01AAED">更新日志</a></td>
+                            </tr>
+                            <tr>
+                                <td>基于框架</td>
+                                <td>layui-v2.4.5</td>
+                            </tr>
+                            <tr>
+                                <td>主要特色</td>
+                                <td>单页面 / 响应式 / 清爽 / 极简</td>
+                            </tr>
+                            <tr>
+                                <td>获取渠道</td>
+                                <td>
+                                    <div class="nei-nei">
+                                        <a href="">获取授权</a>
+                                        <a href="">立即下载</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="nei-san">
+                    <div class="nei-er-s">
+                        <p>效果报告</p>
+                    </div>
+                    <div class="nei-er-w">
+                        <div class="nei-er-ht">
+                            <div class="nei-gao">
+                                <span>
+                                    <p>65%</p>
+                                    <p>转化率（日同比 28%<i
+                                            class="buzhidao iconfont icon-zelvxuanzefeiyongzhengsanjiaoxingzhichi"></i>)
+                                    </p>
+                                </span>
+                                <div class="nei-tiao">
+                                    <p></p>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="nei-gao">
+                                <span>
+                                    <p>32%</p>
+                                    <p>转化率（日同比 11%<i
+                                            class="buzhidao iconfont icon-zelvxuanzefeiyongzhengsanjiaoxingzhichi"></i>)
+                                    </p>
+                                </span>
+                                <div class="nei-tiaoe">
+                                    <p></p>
+                                    <p></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="nei-si">
+                    <div class="nei-er-l">
+                        <p>实时监控</p>
+                    </div>
+                    <div class="nei-er-q">
+                        <div class="nei-er-hp">
+                            <div class="nei-gaoo">
+                                <span>
+                                    <p>65%</p>
+                                    <p>CPU使用率</p>
+                                </span>
+                                <div class="nei-tiao">
+                                    <p></p>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="nei-gao">
+                                <span>
+                                    <p>90%</p>
+                                    <p>内存占用率</p>
+                                </span>
+                                <div class="nei-tiaoeee">
+                                    <p></p>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="nei-wu">
+                    <div class="nei-er-b">
+                        <p>产品动态</p>
+                        <div class="nei-yi-ki">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </div>
+                    </div>
+                    <div class="nei-er-j">
+                        <p id="nei-bianse">
+                            <a href="">
+                                layuiAdmin 快速上手文档
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="nei-liu">
+                    <div class="nei-er-yy">
+                        <p>作者心语</p>
+                        <a href="" class="iconfont icon-survey"></a>
+                    </div>
+                    <div class="nei-er-ye">
+                        <p>一直以来，layui 秉承无偿开源的初心，虔诚致力于服务各层次前后端 Web
+                            开发者，在商业横飞的当今时代，这一信念从未动摇。即便身单力薄，仍然重拾决心，埋头造轮，以尽可能地填补产品本身的缺口。</p>
+                        <p>在过去的一段的时间，我一直在寻求持久之道，已维持你眼前所见的一切。而 layuiAdmin 是我们尝试解决的手段之一。我相信真正有爱于 layui 生态的你，定然不会错过这一拥抱吧。
+                        </p>
+                        <p>子曰：君子不用防，小人防不住。请务必通过官网正规渠道，获得 <a href="">layuiAdmin</a>！</p>
+                        <p>—— 贤心（<a href="">layui.com</a>）</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <script src="jquery/jquery-1.12.4.js"></script>
+<script>
+
+    $(window).resize(() => {
+        $(window).width() <= 990 ? $('.right-column').width('0px') : $('.right-column').width('240px')
+        $(window).width() <= 990 ? $('.shuo').css({ "opacity": '0' }) : $('.shuo').css({ "opacity": '1' })
+        $(window).width() <= 990 ? $('.head').css({ "padding-left": '0px' }) : $('.head').css({ "padding-left": '240px' })
+        $(window).width() <= 990 ? $('.logo').css({ "left": '-240px' }) : $('.logo').css({ "left": '0px' })
+        $(window).width() <= 990 ? $('.nei').css({ "padding-left": '0px' }) : $('.nei').css({ "padding-left": '240px' })
+        $(window).width() <= 990 ? $('.nei-yi').css({ "width": '100%' }) : $('.nei-yi').css({ "width": '67%' })
+        $(window).width() <= 990 ? $('.nei-er').css({ "width": '100%' }) : $('.nei-er').css({ "width": '33%' })
+        $(window).width() <= 990 ? $('.nei-er').css({ "margin-top": '110px' }) : $('.nei-er').css({ "margin-top": '45px' })
+        $(window).width() <= 990 ? $('.nei-er').css({ "margin-left": '11px' }) : $('.nei-er').css({ "margin-left": '0' })
+    })
+    $(window).width() <= 990 ? $('.right-column').width('0px') : $('.right-column').width('240px')
+    $(window).width() <= 990 ? $('.head').css({ "padding-left": '0px' }) : $('.head').css({ "padding-left": '240px' })
+    $(window).width() <= 990 ? $('.nei').css({ "padding-left": '0px' }) : $('.nei').css({ "padding-left": '240px' })
+</script>
+
+
+<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
+<script type="text/javascript">
+    var dom = document.getElementById("container");
+    var left = document.getElementsByClassName('.nei-yi');
+    var resizeWorldMapContainer = function () {
+        dom.style.width = left.innerWidth + 'px';
+    };
+
+    resizeWorldMapContainer();
+    var myChart = echarts.init(dom);
+    var app = {};
+    var option = {
+        toolbox: {
+            show: true,
+            feature: {
+                mark: {
+                    show: true
+                },
+                dataView: {
+                    show: true,
+                    readOnly: false
+                },
+                magicType: {
+                    show: true,
+                    type: ['line', 'bar']
+                },
+                restore: {
+                    show: true
+                },
+                saveAsImage: {
+                    show: true
+                }
+            }
+        },
+        calculable: true,
+        xAxis: [{
+            type: 'category',
+            boundaryGap: false,
+            data: ['00.6', '00.7', '00.8', '00.9', '00.10', '00.11', '00.12']
+        }],
+        yAxis: [{
+            type: 'value',
+            axisLabel: {
+                formatter: '{value} °C'
+            }
+        }],
+        series: [{
+            name: '最高气温',
+            type: 'line',
+            data: [11, 11, 15, 13, 12, 13, 10],
+            markPoint: {
+                data: [{
+                    type: 'max',
+                    name: '最大值'
+                },
+                {
+                    type: 'min',
+                    name: '最小值'
+                }
+                ]
+            },
+            markLine: {
+                data: [{
+                    type: 'average',
+                    name: '平均值'
+                }]
+            }
+        },
+        {
+            name: '最低气温',
+            type: 'line',
+            data: [1, -2, 2, 5, 3, 2, 0],
+            markPoint: {
+                data: [{
+                    name: '周最低',
+                    value: -2,
+                    xAxis: 1,
+                    yAxis: -1.5
+                }]
+            },
+            markLine: {
+                data: [{
+                    type: 'average',
+                    name: '平均值'
+                }]
+            }
+        }
+        ]
+    };
+    myChart.setOption(option);
+    window.onresize = function () {
+        resizeWorldMapContainer();
+        myChart.resize();
+    };
+</script>
+<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
+<script type="text/javascript">
+    var dom = document.getElementById("containerr");
+    var myChart = echarts.init(dom);
+    var app = {};
+    option = null;
+    app.title = '坐标轴刻度与标签对齐';
+
+    option = {
+        color: ['#3398DB'],
+        tooltip: {
+            trigger: 'axis',
+            axisPointer: {            // 坐标轴指示器，坐标轴触发有效
+                type: 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+            }
+        },
+        grid: {
+            left: '3%',
+            right: '4%',
+            bottom: '3%',
+            containLabel: true
+        },
+        xAxis: [
+            {
+                type: 'category',
+                data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+                axisTick: {
+                    alignWithLabel: true
+                }
+            }
+        ],
+        yAxis: [
+            {
+                type: 'value'
+            }
+        ],
+        series: [
+            {
+                name: '直接访问',
+                type: 'bar',
+                barWidth: '60%',
+                data: [10, 52, 200, 334, 390, 330, 220]
+            }
+        ]
+    };
+    ;
+    if (option && typeof option === "object") {
+        myChart.setOption(option, true);
+    }
+</script>
+
+
+<script>
+    $('.nei-qie').hover(function () {
+        $('.nei-yi-yie').css({ 'left': '0' })
+        $('.nei-yi-yiei').css({ 'left': '100%' })
+        $('.nei-qiee').css({ 'background': '#e2e2e2' })
+        $('.nei-qie').css({ 'background': '#999' })
+    })
+    $('.nei-qiee').hover(function () {
+        $('.nei-yi-yie').css({ 'left': '-100%' })
+        $('.nei-yi-yiei').css({ 'left': '0' })
+        $('.nei-qie').css({ 'background': '#e2e2e2' })
+        $('.nei-qiee').css({ 'background': '#999' })
+    })
+
+    $('.nei-qiek').hover(function () {
+        $('.nei-yi-yiee').css({ 'left': '0' })
+        $('.nei-yi-yieey').css({ 'left': '100%' })
+        $('.nei-qieet').css({ 'background': '#e2e2e2' })
+        $('.nei-qiek').css({ 'background': '#999' })
+    })
+    $('.nei-qieet').hover(function () {
+        $('.nei-yi-yiee').css({ 'left': '-100%' })
+        $('.nei-yi-yieey').css({ 'left': '0' })
+        $('.nei-qiek').css({ 'background': '#e2e2e2' })
+        $('.nei-qieet').css({ 'background': '#999' })
+    })
+
+    $('.nei-qien').hover(function () {
+        $('#container').css({ 'left': '0' })
+        $('#containerr').css({ 'left': '100%' })
+        $('.nei-qieem').css({ 'background': '#e2e2e2' })
+        $('.nei-qien').css({ 'background': '#999' })
+    })
+    $('.nei-qieem').hover(function () {
+        $('#container').css({ 'left': '-100%' })
+        $('#containerr').css({ 'left': '0' })
+        $('.nei-qien').css({ 'background': '#e2e2e2' })
+        $('.nei-qieem').css({ 'background': '#999' })
+    })
+    var rgb = document.getElementById('nei-bianse');
+    var color = ['#009688', '#1E9FFF', '#ff5722'];
+    var b = 0
+    setInterval(function () {
+        if (b < 3) {
+            // console.log(color[b])
+            rgb.style.background = color[b];
+            b++;
+        } else {
+            b = 0;
+        }
+    }, 2000);
+
+</script>
+<script src="script/echarts.js"></script>

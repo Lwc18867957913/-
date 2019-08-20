@@ -1,0 +1,142 @@
+.icon-dashboard_line:before {
+    content: "\e615";
+    font-size: 35px;
+}
+
+.icon-chart:before {
+    content: "\e628";
+    font-size: 35px;
+}
+
+.icon-templat:before {
+    content: "\e6be";
+    font-size: 40px;
+}
+
+.icon-chat:before {
+    content: "\e624";
+    font-size: 35px;
+}
+
+.icon-zhinanzhen:before {
+    content: "\e61e";
+    font-size: 35px;
+}
+
+.icon-survey:before {
+    content: "\e606";
+    font-size: 35px;
+}
+
+.icon-use:before {
+    content: "\e649";
+    font-size: 35px;
+}
+
+.icon-shezh:before {
+    content: "\e66f";
+    font-size: 35px;
+}
+
+
+
+.console-one {
+    width: 86.8%;
+    background: skyblue;
+    margin: 66px auto 0 12.3%;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: all .5s;
+}
+
+.console-one .console-one-left {
+    width: 66.6%;
+    background: red;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+}
+
+.console-one .console-one-left .console-one-left-shortcut {
+    width: 49.5%;
+    height: 263px;
+    background: wheat;
+}
+
+.TopIntroduction {
+    position: relative;
+    width: 100%;
+    height: 43px;
+    background: palevioletred;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.Balloption {
+    width: 4.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Balloption li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #e2e2e2;
+}
+
+.TopIntroduction-content {
+    width: 100%;
+    height: 220px;
+    padding: 10px 15px;
+    background: greenyellow;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.TopIntroduction-content div {
+    width: 23.7%;
+    height: 94px;
+    background: khaki;
+    margin-left: 1.2%;
+    text-align: center;
+}
+
+.TopIntroduction-content div a{
+    display: inline-block;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 2px;
+    background-color: #F8F8F8;
+    color: #333;
+    transition: all .3s;
+}
+
+.TopIntroduction-content div p{
+    line-height: 34px;
+}
+
+.console-one .console-one-left .console-one-left-matter {
+    width: 49.5%;
+    height: 263px;
+    background: blue;
+}
+
+.console-one .console-one-left .console-one-left-data {
+    width: 100%;
+    height: 200px;
+    background: greenyellow;
+    margin-top: 1%;
+}

@@ -1,0 +1,300 @@
+button{
+    outline: none;
+}
+
+.nei-box {
+    width: 100%;
+    position: relative;
+    top: 51px;
+    left: 0;
+    transition: all .3s;
+}
+
+.head-two {
+    width: 100%;
+    height: 50px;
+    background: white;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: all .3s;
+}
+
+.head-left-two {
+    width: 350px;
+    height: 50px;
+    margin-left: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nei-diyi-box {
+    width: 100%;
+    padding: 15px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.nei-diyi {
+    width: 100%;
+    margin: -7.5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nei-diyi-left {
+    width: 50%;
+    padding: 7.5px;
+}
+
+.nei-diyi-left-box {
+    margin-bottom: 15px;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+.TopIntroduction {
+    position: relative;
+    height: 43px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.anniu{
+    position: relative;
+    padding: 10px 15px;
+    line-height: 24px;
+}
+
+.anniu-doushi{
+    display: inline-block;
+    height: 38px;
+    padding: 0 18px;
+    background-color: #009688;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 1px 1px 1px 1px;
+}
+
+.yiyi{
+    border: 1px solid #C9C9C9;
+    background-color: #fff;
+    color: #555;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.doushi{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.cc{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #1E9FFF;
+}
+
+.warm{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #FFB800;
+}
+
+.danger{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #FF5722;
+}
+
+.disabled{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #e6e6e6;
+    background-color: #FBFBFB;
+    color: #C9C9C9;
+    cursor: not-allowed;
+    opacity: 1;
+}
+
+.wuyu{
+    height: 44px;
+    line-height: 44px;
+    padding: 0 25px;
+    font-size: 16px;
+}
+
+.wuyu-two{
+    height: 44px;
+    line-height: 44px;
+    padding: 0 25px;
+    font-size: 16px;
+}
+
+.wuyu-three{
+    height: 44px;
+    line-height: 44px;
+    padding: 0 25px;
+    font-size: 16px;
+}
+
+.smallyiyi{
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+.smallyiyi-two{
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+.smallyiyi-three{
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+.miniyiyi{
+    height: 22px;
+    line-height: 22px;
+    padding: 0 5px;
+    font-size: 12px;
+}
+
+.miniyiyi-two{
+    height: 22px;
+    line-height: 22px;
+    padding: 0 5px;
+    font-size: 12px;
+}
+
+.miniyiyi-three{
+    height: 22px;
+    line-height: 22px;
+    padding: 0 5px;
+    font-size: 12px;
+}
+
+.doushi-green{
+    margin-right: 7px;
+    margin-bottom: 10px;
+}
+
+.doushi-orange{
+    background-color: #FF5722;
+    margin-right: 7px;
+    margin-bottom: 10px;
+}
+
+.doushi-white{
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    font-size: 12px;
+    border: 1px solid #C9C9C9;
+    background-color: #fff;
+    color: #555;
+    margin-right: 7px;
+    margin-bottom: 10px;
+}
+
+.doushi-small{
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    font-size: 12px;
+    margin-right: 7px;
+    margin-bottom: 10px;
+}
+
+.doushi-blue{
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    font-size: 12px;
+    background-color: #1E9FFF;
+    margin-right: 7px;
+    margin-bottom: 10px;
+}
+
+.nei-diyi-right {
+    width: 50%;
+    padding: 7.5px;
+}
+
+.Ellipse-yiyi{
+    border-radius: 100px
+}
+
+.Ellipse-doushi{
+    border-radius: 100px
+}
+
+.Ellipse-cc{
+    border-radius: 100px
+}
+
+.Ellipse-warm{
+    border-radius: 100px
+}
+
+.Ellipse-danger{
+    border-radius: 100px
+}
+
+.Ellipse-disabled{
+    border-radius: 100px
+}
+
+.lj{
+    margin-right: 5px;
+}
+
+.fx{
+    margin-right: 5px;
+}
+
+.anniu-container{
+    font-size: 0;
+}
+
+.anniu-group{
+    display: inline-block;
+    font-size: 0;
+    margin-bottom: 10px;
+}
+
+.anniu-group:first-child{
+    border-left: none;
+    border-radius: 2px 0 0 2px;
+}
+
+.doushi-small-clear1{
+    padding-top: 2px;
+    margin-right: 0;
+}
+
+.doushi-small-clear{
+    margin-right: 0;
+}
+
+.doushi-fluid{
+    width: 100%;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,395 @@
+ <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/tonxun.css">
+    <link rel="stylesheet" href="css/caizi/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="css/zxf_page.css" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="nei-tou">
+                <a href="index.html">
+                    主页
+                </a>
+                <p>/</p>
+                <p>页面</p>
+                <p>/</p>
+                <p>通讯录</p>
+            </div>
+            <div class="nei-ron">
+                <div class="nei-ron-yi">
+                    <div class="nei-ron-yiwai">
+                        <div class="nei-ron-er">
+                            <div class="nei-ron-er-yi"><img src="img/3.jpg" alt="">
+                                <div class="nei-ron-er-yi">
+                                    <p>演员</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="nei-ron-ere">
+                            <div class="nei-ron-ere-yy">
+                                <p>胡歌</p>
+                                <p>上海</p>
+                            </div>
+                            <div class="nei-ron-ers">
+                                <a href="">Hu Ge studio</a>
+                                <a href="">
+                                    E-mail:xxx@baidu.com
+                                </a>
+                                <a href="">
+                                    Weibo: https://weibo.com/hu_ge
+                                </a>
+                                <a href="">
+                                    Weibo: https://weibo.com/hu_ge
+                                    (123) 456-7890
+                                </a>
+                                <a href="">
+                                    (123) 456-7890
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nei-ron-yi">
+                    <div class="nei-ron-yiwai">
+                        <div class="nei-ron-er">
+                            <div class="nei-ron-er-yi"><img src="img/3.jpg" alt="">
+                                <div class="nei-ron-er-yi">
+                                    <p>演员</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="nei-ron-ere">
+                            <div class="nei-ron-ere-yy">
+                                <p>胡歌</p>
+                                <p>上海</p>
+                            </div>
+                            <div class="nei-ron-ers">
+                                <a href="">Hu Ge studio</a>
+                                <a href="">
+                                    E-mail:xxx@baidu.com
+                                </a>
+                                <a href="">
+                                    Weibo: https://weibo.com/hu_ge
+                                </a>
+                                <a href="">
+                                    Weibo: https://weibo.com/hu_ge
+                                    (123) 456-7890
+                                </a>
+                                <a href="">
+                                    (123) 456-7890
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nei-ron-yi">
+                    <div class="nei-ron-yiwai">
+                        <div class="nei-ron-er">
+                            <div class="nei-ron-er-yi"><img src="img/3.jpg" alt="">
+                                <div class="nei-ron-er-yi">
+                                    <p>演员</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="nei-ron-ere">
+                            <div class="nei-ron-ere-yy">
+                                <p>胡歌</p>
+                                <p>上海</p>
+                            </div>
+                            <div class="nei-ron-ers">
+                                <a href="">Hu Ge studio</a>
+                                <a href="">
+                                    E-mail:xxx@baidu.com
+                                </a>
+                                <a href="">
+                                    Weibo: https://weibo.com/hu_ge
+                                </a>
+                                <a href="">
+                                    Weibo: https://weibo.com/hu_ge
+                                    (123) 456-7890
+                                </a>
+                                <a href="">
+                                    (123) 456-7890
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nei-ron-yi">
+                    <div class="nei-ron-yiwai">
+                        <div class="nei-ron-er">
+                            <div class="nei-ron-er-yi"><img src="img/3.jpg" alt="">
+                                <div class="nei-ron-er-yi">
+                                    <p>演员</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="nei-ron-ere">
+                            <div class="nei-ron-ere-yy">
+                                <p>胡歌</p>
+                                <p>上海</p>
+                            </div>
+                            <div class="nei-ron-ers">
+                                <a href="">Hu Ge studio</a>
+                                <a href="">
+                                    E-mail:xxx@baidu.com
+                                </a>
+                                <a href="">
+                                    Weibo: https://weibo.com/hu_ge
+                                </a>
+                                <a href="">
+                                    Weibo: https://weibo.com/hu_ge
+                                    (123) 456-7890
+                                </a>
+                                <a href="">
+                                    (123) 456-7890
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nei-ron-yi">
+                    <div class="nei-ron-yiwai">
+                        <div class="nei-ron-er">
+                            <div class="nei-ron-er-yi"><img src="img/3.jpg" alt="">
+                                <div class="nei-ron-er-yi">
+                                    <p>演员</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="nei-ron-ere">
+                            <div class="nei-ron-ere-yy">
+                                <p>胡歌</p>
+                                <p>上海</p>
+                            </div>
+                            <div class="nei-ron-ers">
+                                <a href="">Hu Ge studio</a>
+                                <a href="">
+                                    E-mail:xxx@baidu.com
+                                </a>
+                                <a href="">
+                                    Weibo: https://weibo.com/hu_ge
+                                </a>
+                                <a href="">
+                                    Weibo: https://weibo.com/hu_ge
+                                    (123) 456-7890
+                                </a>
+                                <a href="">
+                                    (123) 456-7890
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nei-ron-yi">
+                    <div class="nei-ron-yiwai">
+                        <div class="nei-ron-er">
+                            <div class="nei-ron-er-yi"><img src="img/3.jpg" alt="">
+                                <div class="nei-ron-er-yi">
+                                    <p>演员</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="nei-ron-ere">
+                            <div class="nei-ron-ere-yy">
+                                <p>胡歌</p>
+                                <p>上海</p>
+                            </div>
+                            <div class="nei-ron-ers">
+                                <a href="">Hu Ge studio</a>
+                                <a href="">
+                                    E-mail:xxx@baidu.com
+                                </a>
+                                <a href="">
+                                    Weibo: https://weibo.com/hu_ge
+                                </a>
+                                <a href="">
+                                    Weibo: https://weibo.com/hu_ge
+                                    (123) 456-7890
+                                </a>
+                                <a href="">
+                                    (123) 456-7890
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nei-ron-yi">
+                    <div class="nei-ron-yiwai">
+                        <div class="nei-ron-er">
+                            <div class="nei-ron-er-yi"><img src="img/3.jpg" alt="">
+                                <div class="nei-ron-er-yi">
+                                    <p>演员</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="nei-ron-ere">
+                            <div class="nei-ron-ere-yy">
+                                <p>胡歌</p>
+                                <p>上海</p>
+                            </div>
+                            <div class="nei-ron-ers">
+                                <a href="">Hu Ge studio</a>
+                                <a href="">
+                                    E-mail:xxx@baidu.com
+                                </a>
+                                <a href="">
+                                    Weibo: https://weibo.com/hu_ge
+                                </a>
+                                <a href="">
+                                    Weibo: https://weibo.com/hu_ge
+                                    (123) 456-7890
+                                </a>
+                                <a href="">
+                                    (123) 456-7890
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nei-ron-yi">
+                    <div class="nei-ron-yiwai">
+                        <div class="nei-ron-er">
+                            <div class="nei-ron-er-yi"><img src="img/3.jpg" alt="">
+                                <div class="nei-ron-er-yi">
+                                    <p>演员</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="nei-ron-ere">
+                            <div class="nei-ron-ere-yy">
+                                <p>胡歌</p>
+                                <p>上海</p>
+                            </div>
+                            <div class="nei-ron-ers">
+                                <a href="">Hu Ge studio</a>
+                                <a href="">
+                                    E-mail:xxx@baidu.com
+                                </a>
+                                <a href="">
+                                    Weibo: https://weibo.com/hu_ge
+                                </a>
+                                <a href="">
+                                    Weibo: https://weibo.com/hu_ge
+                                    (123) 456-7890
+                                </a>
+                                <a href="">
+                                    (123) 456-7890
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nei-ron-yi">
+                    <div class="nei-ron-yiwai">
+                        <div class="nei-ron-er">
+                            <div class="nei-ron-er-yi"><img src="img/3.jpg" alt="">
+                                <div class="nei-ron-er-yi">
+                                    <p>演员</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="nei-ron-ere">
+                            <div class="nei-ron-ere-yy">
+                                <p>胡歌</p>
+                                <p>上海</p>
+                            </div>
+                            <div class="nei-ron-ers">
+                                <a href="">Hu Ge studio</a>
+                                <a href="">
+                                    E-mail:xxx@baidu.com
+                                </a>
+                                <a href="">
+                                    Weibo: https://weibo.com/hu_ge
+                                </a>
+                                <a href="">
+                                    Weibo: https://weibo.com/hu_ge
+                                    (123) 456-7890
+                                </a>
+                                <a href="">
+                                    (123) 456-7890
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nei-ron-yi">
+                    <div class="nei-ron-yiwai">
+                        <div class="nei-ron-er">
+                            <div class="nei-ron-er-yi"><img src="img/3.jpg" alt="">
+                                <div class="nei-ron-er-yi">
+                                    <p>演员</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="nei-ron-ere">
+                            <div class="nei-ron-ere-yy">
+                                <p>胡歌</p>
+                                <p>上海</p>
+                            </div>
+                            <div class="nei-ron-ers">
+                                <a href="">Hu Ge studio</a>
+                                <a href="">
+                                    E-mail:xxx@baidu.com
+                                </a>
+                                <a href="">
+                                    Weibo: https://weibo.com/hu_ge
+                                </a>
+                                <a href="">
+                                    Weibo: https://weibo.com/hu_ge
+                                    (123) 456-7890
+                                </a>
+                                <a href="">
+                                    (123) 456-7890
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <script src="jquery/jquery-1.12.4.js"></script>
+
+<script>
+    $(window).resize(() => {
+        $(window).width() <= 990 ? $('.right-column').width('0px') : $('.right-column').width('240px')
+        $(window).width() <= 990 ? $('.shuo').css({ "opacity": '0' }) : $('.shuo').css({ "opacity": '1' })
+        $(window).width() <= 990 ? $('.head').css({ "padding-left": '0px' }) : $('.head').css({ "padding-left": '240px' })
+        $(window).width() <= 990 ? $('.logo').css({ "left": '-240px' }) : $('.logo').css({ "left": '0px' })
+        $(window).width() <= 990 ? $('.nei').css({ "padding-left": '0px' }) : $('.nei').css({ "padding-left": '240px' })
+    })
+    $(window).width() <= 990 ? $('.right-column').width('0px') : $('.right-column').width('240px')
+    $(window).width() <= 990 ? $('.head').css({ "padding-left": '0px' }) : $('.head').css({ "padding-left": '240px' })
+    $(window).width() <= 990 ? $('.nei').css({ "padding-left": '0px' }) : $('.nei').css({ "padding-left": '240px' })
+</script>

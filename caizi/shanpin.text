@@ -1,0 +1,278 @@
+  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/caizi/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="css/zxf_page.css" />
+    <link rel="stylesheet" href="css/shangpin.css">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="nei-tou">
+            <a href="index.html">
+                主页
+            </a>
+            <p>/</p>
+            <p>页面</p>
+            <p>/</p>
+            <p>商品列表</p>
+        </div>
+        <div class="content-down-box">
+            <div class="content-down">
+                <div class="shangpin-box">
+                    <div class="shangpin">
+                        <a href="#"><img src="img/1.png" alt=""></a>
+                        <div class="shangpin-text">
+                            <p class="info">2018春夏季新款港味短款白色T恤+网纱中长款chic半身裙套装两件套</p>
+                            <div class="price">
+                                <b>￥79</b>
+                                <p>¥<del>130</del></p>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shangpin-box">
+                    <div class="shangpin">
+                        <a href="#"><img src="img/1.png" alt=""></a>
+                        <div class="shangpin-text">
+                            <p class="info">2018春夏季新款港味短款白色T恤+网纱中长款chic半身裙套装两件套</p>
+                            <div class="price">
+                                <b>￥79</b>
+                                <p>¥<del>130</del></p>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shangpin-box">
+                    <div class="shangpin">
+                        <a href="#"><img src="img/1.png" alt=""></a>
+                        <div class="shangpin-text">
+                            <p class="info">2018春夏季新款港味短款白色T恤+网纱中长款chic半身裙套装两件套</p>
+                            <div class="price">
+                                <b>￥79</b>
+                                <p>¥<del>130</del></p>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shangpin-box">
+                    <div class="shangpin">
+                        <a href="#"><img src="img/1.png" alt=""></a>
+                        <div class="shangpin-text">
+                            <p class="info">2018春夏季新款港味短款白色T恤+网纱中长款chic半身裙套装两件套</p>
+                            <div class="price">
+                                <b>￥79</b>
+                                <p>¥<del>130</del></p>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shangpin-box">
+                    <div class="shangpin">
+                        <a href="#"><img src="img/1.png" alt=""></a>
+                        <div class="shangpin-text">
+                            <p class="info">2018春夏季新款港味短款白色T恤+网纱中长款chic半身裙套装两件套</p>
+                            <div class="price">
+                                <b>￥79</b>
+                                <p>¥<del>130</del></p>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shangpin-box">
+                    <div class="shangpin">
+                        <a href="#"><img src="img/1.png" alt=""></a>
+                        <div class="shangpin-text">
+                            <p class="info">2018春夏季新款港味短款白色T恤+网纱中长款chic半身裙套装两件套</p>
+                            <div class="price">
+                                <b>￥79</b>
+                                <p>¥<del>130</del></p>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shangpin-box">
+                    <div class="shangpin">
+                        <a href="#"><img src="img/1.png" alt=""></a>
+                        <div class="shangpin-text">
+                            <p class="info">2018春夏季新款港味短款白色T恤+网纱中长款chic半身裙套装两件套</p>
+                            <div class="price">
+                                <b>￥79</b>
+                                <p>¥<del>130</del></p>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shangpin-box">
+                    <div class="shangpin">
+                        <a href="#"><img src="img/1.png" alt=""></a>
+                        <div class="shangpin-text">
+                            <p class="info">2018春夏季新款港味短款白色T恤+网纱中长款chic半身裙套装两件套</p>
+                            <div class="price">
+                                <b>￥79</b>
+                                <p>¥<del>130</del></p>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shangpin-box">
+                    <div class="shangpin">
+                        <a href="#"><img src="img/1.png" alt=""></a>
+                        <div class="shangpin-text">
+                            <p class="info">2018春夏季新款港味短款白色T恤+网纱中长款chic半身裙套装两件套</p>
+                            <div class="price">
+                                <b>￥79</b>
+                                <p>¥<del>130</del></p>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shangpin-box">
+                    <div class="shangpin">
+                        <a href="#"><img src="img/1.png" alt=""></a>
+                        <div class="shangpin-text">
+                            <p class="info">2018春夏季新款港味短款白色T恤+网纱中长款chic半身裙套装两件套</p>
+                            <div class="price">
+                                <b>￥79</b>
+                                <p>¥<del>130</del></p>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shangpin-box">
+                    <div class="shangpin">
+                        <a href="#"><img src="img/1.png" alt=""></a>
+                        <div class="shangpin-text">
+                            <p class="info">2018春夏季新款港味短款白色T恤+网纱中长款chic半身裙套装两件套</p>
+                            <div class="price">
+                                <b>￥79</b>
+                                <p>¥<del>130</del></p>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shangpin-box">
+                    <div class="shangpin">
+                        <a href="#"><img src="img/1.png" alt=""></a>
+                        <div class="shangpin-text">
+                            <p class="info">2018春夏季新款港味短款白色T恤+网纱中长款chic半身裙套装两件套</p>
+                            <div class="price">
+                                <b>￥79</b>
+                                <p>¥<del>130</del></p>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shangpin-box">
+                    <div class="shangpin">
+                        <a href="#"><img src="img/1.png" alt=""></a>
+                        <div class="shangpin-text">
+                            <p class="info">2018春夏季新款港味短款白色T恤+网纱中长款chic半身裙套装两件套</p>
+                            <div class="price">
+                                <b>￥79</b>
+                                <p>¥<del>130</del></p>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shangpin-box">
+                    <div class="shangpin">
+                        <a href="#"><img src="img/1.png" alt=""></a>
+                        <div class="shangpin-text">
+                            <p class="info">2018春夏季新款港味短款白色T恤+网纱中长款chic半身裙套装两件套</p>
+                            <div class="price">
+                                <b>￥79</b>
+                                <p>¥<del>130</del></p>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shangpin-box">
+                    <div class="shangpin">
+                        <a href="#"><img src="img/1.png" alt=""></a>
+                        <div class="shangpin-text">
+                            <p class="info">2018春夏季新款港味短款白色T恤+网纱中长款chic半身裙套装两件套</p>
+                            <div class="price">
+                                <b>￥79</b>
+                                <p>¥<del>130</del></p>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shangpin-box">
+                    <div class="shangpin">
+                        <a href="#"><img src="img/1.png" alt=""></a>
+                        <div class="shangpin-text">
+                            <p class="info">2018春夏季新款港味短款白色T恤+网纱中长款chic半身裙套装两件套</p>
+                            <div class="price">
+                                <b>￥79</b>
+                                <p>¥<del>130</del></p>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="zxf_pagediv"></div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+<script src="jquery/jquery-1.12.4.js"></script>
+
+<script>
+    $(window).resize(() => {
+        $(window).width() <= 990 ? $('.right-column').width('0px') : $('.right-column').width('240px')
+        $(window).width() <= 990 ? $('.shuo').css({ "opacity": '0' }) : $('.shuo').css({ "opacity": '1' })
+        $(window).width() <= 990 ? $('.head').css({ "padding-left": '0px' }) : $('.head').css({ "padding-left": '240px' })
+        $(window).width() <= 990 ? $('.logo').css({ "left": '-240px' }) : $('.logo').css({ "left": '0px' })
+        $(window).width() <= 990 ? $('.nei').css({ "padding-left": '0px' }) : $('.nei').css({ "padding-left": '240px' })
+    })
+    $(window).width() <= 990 ? $('.right-column').width('0px') : $('.right-column').width('240px')
+    $(window).width() <= 990 ? $('.head').css({ "padding-left": '0px' }) : $('.head').css({ "padding-left": '240px' })
+    $(window).width() <= 990 ? $('.nei').css({ "padding-left": '0px' }) : $('.nei').css({ "padding-left": '240px' })
+</script>
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="js/zxf_page.js"></script>
+<script type="text/javascript">
+    //翻页
+    $(".zxf_pagediv").createPage({
+        pageNum: 20,
+        current: 6,
+        backfun: function (e) {
+            //console.log(e);//回调
+        }
+    });
+</script>

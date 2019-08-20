@@ -1,0 +1,390 @@
+   <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <script src="script/echarts.js"></script>
+    <link rel="stylesheet" href="css/zhuyi.css">
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+        <div class="nei-box">
+            <div class="nei-tou">
+                <a href="index.html">
+                    主页
+                </a>
+                <p>/</p>
+                <p>主页一</p>
+            </div>
+            <div class="nei-diyi-box">
+                <div class="nei-diyi">
+                    <div class="nei-diyi-left">
+                        <div class="nei-diyi-left-up">
+                            <div class="TopIntroduction">
+                                <p>最近更新</p>
+                                <a href="#">全部更新</a>
+                            </div>
+                            <div class="Recentupdates-box">
+                                <div class="Recentupdates">
+                                    <div class="Recentupdates-text">
+                                        <div class="Recentupdates-text-top">
+                                            <i></i>
+                                            <a href="#">flow</a>
+                                        </div>
+                                        <p class="Recentupdates-text-center">修复开启 isLazyimg:true 后, 图片懒加载但是图片不存在的报错问题
+                                        </p>
+                                        <p class="Recentupdates-text-bottom">
+                                            <a href="#">流加载</a>
+                                            <span>7 天前</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="Recentupdates">
+                                    <div class="Recentupdates-text">
+                                        <div class="Recentupdates-text-top">
+                                            <i></i>
+                                            <a href="#">upload</a>
+                                        </div>
+                                        <p class="Recentupdates-text-center">修复开启 size 参数后，文件超出规定大小时，提示信息有误的问题
+                                        </p>
+                                        <p class="Recentupdates-text-bottom">
+                                            <a href="#">文件上传</a>
+                                            <span>7 天前</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="Recentupdates">
+                                    <div class="Recentupdates-text">
+                                        <div class="Recentupdates-text-top">
+                                            <i></i>
+                                            <a href="#">form</a>
+                                        </div>
+                                        <p class="Recentupdates-text-center">增加 form.val(filter,
+                                            fields)方法，用于给指定表单集合的元素初始赋值
+                                        </p>
+                                        <p class="Recentupdates-text-bottom">
+                                            <a href="#">表单</a>
+                                            <span>7 天前</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="Recentupdates">
+                                    <div class="Recentupdates-text">
+                                        <div class="Recentupdates-text-top">
+                                            <i></i>
+                                            <a href="#">form</a>
+                                        </div>
+                                        <p class="Recentupdates-text-center">对 select 组件新增上下键（↑ ↓）回车键（Enter）选择功能
+                                        </p>
+                                        <p class="Recentupdates-text-bottom">
+                                            <a href="#">表单</a>
+                                            <span>7 天前</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="Recentupdates">
+                                    <div class="Recentupdates-text">
+                                        <div class="Recentupdates-text-top">
+                                            <i></i>
+                                            <a href="#">form</a>
+                                        </div>
+                                        <p class="Recentupdates-text-center">优化 switch 开关组件，让其能根据文本自由伸缩宽
+                                        </p>
+                                        <p class="Recentupdates-text-bottom">
+                                            <a href="#">表单</a>
+                                            <span>7 天前</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="Recentupdates">
+                                    <div class="Recentupdates-text">
+                                        <div class="Recentupdates-text-top">
+                                            <i></i>
+                                            <a href="#">form</a>
+                                        </div>
+                                        <p class="Recentupdates-text-center">修复 checkbox 复选框组件在高分辨屏下出现的样式不雅问题
+                                        </p>
+                                        <p class="Recentupdates-text-bottom">
+                                            <a href="#">表单</a>
+                                            <span>7 天前</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nei-diyi-left-diyi">
+                            <div class="TopIntroduction-two">
+                                <p>动态</p>
+                            </div>
+                            <div class="dynamic-box">
+                                <div class="dynamic-box-cen">
+                                    <dd>
+                                        <div class="dynamic-img">
+                                            <a href="#"><img src="" alt=""></a>
+                                        </div>
+                                        <div>
+                                            <p>胡歌 在
+                                                <a href="#">layuiadmin专区</a>
+                                                回答问题
+                                            </p>
+                                            <span>几秒前</span>
+                                        </div>
+                                    </dd>
+                                </div>
+                                <div class="dynamic-box-cen">
+                                    <dd>
+                                        <div class="dynamic-img">
+                                            <a href="#"><img src="" alt=""></a>
+                                        </div>
+                                        <div>
+                                            <p>彭于晏 在
+                                                <a href="#">layuiadmin专区</a>
+                                                进行了
+                                                <a href="#">提问</a>
+                                            </p>
+                                            <span>几秒前</span>
+                                        </div>
+                                    </dd>
+                                </div>
+                                <div class="dynamic-box-cen">
+                                    <dd>
+                                        <div class="dynamic-img">
+                                            <a href="#"><img src="" alt=""></a>
+                                        </div>
+                                        <div>
+                                            <p>贤心 将
+                                                <a href="#">layui</a>
+                                                更新至 2.3.0-rc1 版本
+                                            </p>
+                                            <span>几秒前</span>
+                                        </div>
+                                    </dd>
+                                </div>
+                                <div class="dynamic-box-cen">
+                                    <dd>
+                                        <div class="dynamic-img">
+                                            <a href="#"><img src="" alt=""></a>
+                                        </div>
+                                        <div>
+                                            <p>吴尊 在
+                                                <a href="#">Fly社区</a>
+                                                发布了
+                                                <a href="#">建议</a>
+                                            </p>
+                                            <span>几秒前</span>
+                                        </div>
+                                    </dd>
+                                </div>
+                                <div class="dynamic-box-cen">
+                                    <dd>
+                                        <div class="dynamic-img">
+                                            <a href="#"><img src="" alt=""></a>
+                                        </div>
+                                        <div>
+                                            <p>许上进 在
+                                                <a href="#">Fly社区</a>
+                                                发布了
+                                                <a href="#">建议</a>
+                                            </p>
+                                            <span>几秒前</span>
+                                        </div>
+                                    </dd>
+                                </div>
+                                <div class="dynamic-box-cen">
+                                    <dd>
+                                        <div class="dynamic-img">
+                                            <a href="#"><img src="" alt=""></a>
+                                        </div>
+                                        <div>
+                                            <p>小蚊子 在
+                                                <a href="#">layuiadmin专区</a>
+                                                进行了
+                                                <a href="#">提问</a>
+                                            </p>
+                                            <span>几秒前</span>
+                                        </div>
+                                    </dd>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nei-diyi-right">
+                        <div class="nei-diyi-right-box">
+                            <div class="TopIntroduction">
+                                <p>快速开始/便捷导航</p>
+                            </div>
+                            <div class="Bottombox">
+                                <div class="Bottombox-cen">
+                                    <a href="#">操作一</a>
+                                    <a href="#">操作二</a>
+                                    <a href="#">操作三</a>
+                                    <a href="#">操作四</a>
+                                    <a href="#">操作五</a>
+                                    <a href="#">操作六</a>
+                                    <button><i></i>添加</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nei-diyi-right-box">
+                            <div class="TopIntroduction">
+                                <p>八卦新闻</p>
+                            </div>
+                            <div class="Bottombox">
+                                <div class="Bottombox-cen">
+                                    <div id="containerr"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nei-diyi-right-box">
+                            <div class="TopIntroduction">
+                                <p>重点组件</p>
+                            </div>
+                            <div class="Bottombox">
+                                <ul class="Bottombox-cen-assembly">
+                                    <li>
+                                        <a href="#">
+                                            <span class="team-img dynamic-img"><img src="" alt=""></span>
+                                            <span>数据表格</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="team-img dynamic-img"><img src="" alt=""></span>
+                                            <span>即时通讯</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="team-img dynamic-img"><img src="" alt=""></span>
+                                            <span>表单</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="team-img dynamic-img"><img src="" alt=""></span>
+                                            <span>弹出层</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="team-img dynamic-img"><img src="" alt=""></span>
+                                            <span>文件上传</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="team-img dynamic-img"><img src="" alt=""></span>
+                                            <span>评分</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="jquery/jquery-1.12.4.js"></script>
+ <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
+       <script type="text/javascript">
+var dom = document.getElementById("containerr");
+var myChart = echarts.init(dom);
+var app = {};
+option = null;
+option = {
+    title: {
+        text: '浏览器占比变化',
+        subtext: '纯属虚构',
+        top: 10,
+        left: 10
+    },
+    tooltip: {
+        trigger: 'item',
+        backgroundColor : 'rgba(0,0,250,0.2)'
+    },
+    legend: {
+        type: 'scroll',
+        bottom: 10,
+        data: (function (){
+            var list = [];
+            for (var i = 1; i <=28; i++) {
+                list.push(i + 2000 + '');
+            }
+            return list;
+        })()
+    },
+    visualMap: {
+        top: 'middle',
+        right: 10,
+        color: ['red', 'yellow'],
+        calculable: true
+    },
+    radar: {
+       indicator : [
+           { text: 'IE8-', max: 400},
+           { text: 'IE9+', max: 400},
+           { text: 'Safari', max: 400},
+           { text: 'Firefox', max: 400},
+           { text: 'Chrome', max: 400}
+        ]
+    },
+    series : (function (){
+        var series = [];
+        for (var i = 1; i <= 28; i++) {
+            series.push({
+                name:'浏览器（数据纯属虚构）',
+                type: 'radar',
+                symbol: 'none',
+                lineStyle: {
+                    width: 1
+                },
+                emphasis: {
+                    areaStyle: {
+                        color: 'rgba(0,250,0,0.3)'
+                    }
+                },
+                data:[
+                  {
+                    value:[
+                        (40 - i) * 10,
+                        (38 - i) * 4 + 60,
+                        i * 5 + 10,
+                        i * 9,
+                        i * i /2
+                    ],
+                    name: i + 2000 + ''
+                  }
+                ]
+            });
+        }
+        return series;
+    })()
+};;
+if (option && typeof option === "object") {
+    myChart.setOption(option, true);
+}
+       </script>
+
+<script>
+    $(window).resize(() => {
+        $(window).width() <= 990 ? $('.right-column').width('0px') : $('.right-column').width('240px')
+        $(window).width() <= 990 ? $('.shuo').css({ "opacity": '0' }) : $('.shuo').css({ "opacity": '1' })
+        $(window).width() <= 990 ? $('.head').css({ "padding-left": '0px' }) : $('.head').css({ "padding-left": '240px' })
+        $(window).width() <= 990 ? $('.logo').css({ "left": '-240px' }) : $('.logo').css({ "left": '0px' })
+        $(window).width() <= 990 ? $('.nei-box').css({ "padding-left": '0px' }) : $('.nei-box').css({ "padding-left": '240px' })
+    })
+    $(window).width() <= 990 ? $('.right-column').width('0px') : $('.right-column').width('240px')
+    $(window).width() <= 990 ? $('.head').css({ "padding-left": '0px' }) : $('.head').css({ "padding-left": '240px' })
+    $(window).width() <= 990 ? $('.nei-box').css({ "padding-left": '0px' }) : $('.nei-box').css({ "padding-left": '240px' })
+</script>

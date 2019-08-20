@@ -1,0 +1,210 @@
+<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <script src="script/echarts.js"></script>
+    <link rel="stylesheet" href="css/anniu.css">
+    <link rel="stylesheet" href="css/iconfont1.css">
+
+
+        <div class="nei-box">
+            <div class="nei-tou">
+                <a href="index.html">
+                    主页
+                </a>
+                <p>/</p>
+                <p>组件</p>
+                <p>/</p>
+                <p>按钮</p>
+            </div>
+            <div class="nei-diyi-box">
+                <div class="nei-diyi">
+                    <div class="nei-diyi-left">
+                        <div class="nei-diyi-left-box">
+                            <div class="TopIntroduction">
+                                <p>按钮主题</p>
+                            </div>
+                            <div class="anniu">
+                                <button class="anniu-doushi yiyi">原始按钮</button>
+                                <button class="anniu-doushi doushi">默认按钮</button>
+                                <button class="anniu-doushi cc">百搭按钮</button>
+                                <button class="anniu-doushi warm">暖色按钮</button>
+                                <button class="anniu-doushi danger">警告按钮</button>
+                                <button class="anniu-doushi disabled">禁用按钮</button>
+                            </div>
+                        </div>
+                        <div class="nei-diyi-left-box">
+                            <div class="TopIntroduction">
+                                <p>按钮尺寸</p>
+                            </div>
+                            <div class="anniu">
+                                <button class="anniu-doushi yiyi wuyu">大型按钮</button>
+                                <button class="anniu-doushi yiyi doushihh">默认按钮</button>
+                                <button class="anniu-doushi yiyi smallhh">小型按钮</button>
+                                <button class="anniu-doushi yiyi minihh">迷你按钮</button>
+                                <br>
+                                <button class="anniu-doushi doushi wuyu-two">大型按钮</button>
+                                <button class="anniu-doushi doushi doushihh-two">默认按钮</button>
+                                <button class="anniu-doushi doushi smallhh-two">小型按钮</button>
+                                <button class="anniu-doushi doushi minihh-two">迷你按钮</button>
+                                <br>
+                                <button class="anniu-doushi cc wuyu-three">大型按钮</button>
+                                <button class="anniu-doushi cc doushihh-three">默认按钮</button>
+                                <button class="anniu-doushi cc smallhh-three">小型按钮</button>
+                                <button class="anniu-doushi cc minihh-three">迷你按钮</button>
+                            </div>
+                        </div>
+                        <div class="nei-diyi-left-box">
+                            <div class="TopIntroduction">
+                                <p>按钮尺寸</p>
+                            </div>
+                            <div class="anniu">
+                                <button class="anniu-doushi doushi-green"><i
+                                        class="iconfont icon-star_full"></i></button>
+                                <button class="anniu-doushi doushi-green"><i
+                                        class="iconfont icon-icon-copy"></i></button>
+                                <button class="anniu-doushi doushi-green"><i class="iconfont icon-icon"></i></button>
+                                <button class="anniu-doushi doushi-green"><i class="iconfont icon-qianbi"></i></button>
+                                <button class="anniu-doushi doushi-green"><i
+                                        class="iconfont icon-lajitong"></i></button>
+                                <button class="anniu-doushi doushi-green"><i
+                                        class="iconfont icon-fenxiang"></i></button>
+                                <br>
+                                <button class="anniu-doushi doushi-orange"><i
+                                        class="iconfont icon-star_full"></i></button>
+                                <button class="anniu-doushi doushi-orange"><i
+                                        class="iconfont icon-icon-copy"></i></button>
+                                <button class="anniu-doushi doushi-orange"><i class="iconfont icon-icon"></i></button>
+                                <button class="anniu-doushi doushi-orange"><i class="iconfont icon-qianbi"></i></button>
+                                <button class="anniu-doushi doushi-orange"><i
+                                        class="iconfont icon-lajitong"></i></button>
+                                <button class="anniu-doushi doushi-orange"><i
+                                        class="iconfont icon-fenxiang"></i></button>
+                                <br>
+                                <button class="anniu-doushi doushi-white"><i
+                                        class="iconfont icon-star_full"></i></button>
+                                <button class="anniu-doushi doushi-white"><i
+                                        class="iconfont icon-icon-copy"></i></button>
+                                <button class="anniu-doushi doushi-white"><i class="iconfont icon-icon"></i></button>
+                                <button class="anniu-doushi doushi-white"><i class="iconfont icon-qianbi"></i></button>
+                                <button class="anniu-doushi doushi-white"><i
+                                        class="iconfont icon-lajitong"></i></button>
+                                <button class="anniu-doushi doushi-white"><i
+                                        class="iconfont icon-fenxiang"></i></button>
+                                <br>
+                                <button class="anniu-doushi doushi-small"><i
+                                        class="iconfont icon-star_full"></i></button>
+                                <button class="anniu-doushi doushi-small"><i
+                                        class="iconfont icon-icon-copy"></i></button>
+                                <button class="anniu-doushi doushi-small"><i class="iconfont icon-icon"></i></button>
+                                <button class="anniu-doushi doushi-small"><i class="iconfont icon-qianbi"></i></button>
+                                <button class="anniu-doushi doushi-small"><i
+                                        class="iconfont icon-lajitong"></i></button>
+                                <button class="anniu-doushi doushi-small"><i
+                                        class="iconfont icon-fenxiang"></i></button>
+                                <br>
+                                <button class="anniu-doushi doushi-blue"><i
+                                        class="iconfont icon-star_full"></i></button>
+                                <button class="anniu-doushi doushi-blue"><i
+                                        class="iconfont icon-icon-copy"></i></button>
+                                <button class="anniu-doushi doushi-blue"><i class="iconfont icon-icon"></i></button>
+                                <button class="anniu-doushi doushi-blue"><i class="iconfont icon-qianbi"></i></button>
+                                <button class="anniu-doushi doushi-blue"><i class="iconfont icon-lajitong"></i></button>
+                                <button class="anniu-doushi doushi-blue"><i class="iconfont icon-fenxiang"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nei-diyi-right">
+                        <div class="nei-diyi-left-box">
+                            <div class="TopIntroduction">
+                                <p>按钮主题</p>
+                            </div>
+                            <div class="anniu">
+                                <button class="anniu-doushi yiyi Ellipse-yiyi">原始按钮</button>
+                                <button class="anniu-doushi doushi Ellipse-doushi">默认按钮</button>
+                                <button class="anniu-doushi cc Ellipse-cc">百搭按钮</button>
+                                <button class="anniu-doushi warm Ellipse-warm">暖色按钮</button>
+                                <button class="anniu-doushi danger Ellipse-danger">警告按钮</button>
+                                <button class="anniu-doushi disabled Ellipse-disabled">禁用按钮</button>
+                            </div>
+                        </div>
+                        <div class="nei-diyi-left-box">
+                            <div class="TopIntroduction">
+                                <p>按钮主题</p>
+                            </div>
+                            <div class="anniu">
+                                <button class="anniu-doushi yiyi Ellipse-yiyi wuyu">原始按钮</button>
+                                <button class="anniu-doushi doushi">跳转的按钮</button>
+                                <button class="anniu-doushi cc smallhh"><i
+                                        class="iconfont icon-lajitong lj"></i>删除</button>
+                                <button class="anniu-doushi disabled minihh"><i
+                                        class="iconfont icon-fenxiang fx"></i>分享</button>
+                            </div>
+                        </div>
+                        <div class="nei-diyi-left-box">
+                            <div class="TopIntroduction">
+                                <p>按钮组合</p>
+                            </div>
+                            <div class="anniu">
+                                <div class="anniu-container">
+                                    <div class="anniu-group">
+                                        <button class="anniu-doushi">增加</button>
+                                        <button class="anniu-doushi">编辑</button>
+                                        <button class="anniu-doushi">删除</button>
+                                    </div>
+                                </div>
+                                <div class="anniu-container">
+                                    <div class="anniu-group">
+                                        <button class="anniu-doushi doushi-small doushi-small-clear"><i
+                                                class="iconfont icon-star_full"></i></button>
+                                        <button class="anniu-doushi doushi-small doushi-small-clear"><i
+                                                class="iconfont icon-qianbi"></i></button>
+                                        <button class="anniu-doushi doushi-small doushi-small-clear"><i
+                                                class="iconfont icon-lajitong"></i></button>
+                                        <button class="anniu-doushi doushi-small doushi-small-cleara"><i
+                                                class="iconfont icon-icon"></i></button>
+
+                                        <button
+                                            class="anniu-doushi doushi-white doushi-small doushi-small-clear1">文字</button>
+                                        <button class="anniu-doushi doushi-white  doushi-small doushi-small-clear"><i
+                                                class="iconfont icon-increase"></i></button>
+                                        <button class="anniu-doushi doushi-white  doushi-small doushi-small-clear"><i
+                                                class="iconfont icon-qianbi"></i></button>
+                                        <button class="anniu-doushi doushi-white  doushi-small doushi-small-cleara"><i
+                                                class="iconfont icon-lajitong"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nei-diyi-left-box">
+                            <div class="TopIntroduction">
+                                <p>按钮尺寸</p>
+                            </div>
+                            <div class="anniu">
+                                <button class="anniu-doushi doushi-fluid">好雨知时节</button>
+                                <br>
+                                <button class="anniu-doushi doushi-fluid">当春乃发生</button>
+                                <br>
+                                <button class="anniu-doushi doushi-fluid">随风潜入夜</button>
+                                <br>
+                                <button class="anniu-doushi doushi-fluid">润物细无声</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="jquery/jquery-1.12.4.js"></script>
+<script src="js.js"></script>
+<script>
+    $(window).resize(() => {
+        $(window).width() <= 990 ? $('.right-column').width('0px') : $('.right-column').width('240px')
+        $(window).width() <= 990 ? $('.shuo').css({ "opacity": '0' }) : $('.shuo').css({ "opacity": '1' })
+        $(window).width() <= 990 ? $('.head').css({ "padding-left": '0px' }) : $('.head').css({ "padding-left": '240px' })
+        $(window).width() <= 990 ? $('.logo').css({ "left": '-240px' }) : $('.logo').css({ "left": '0px' })
+        $(window).width() <= 990 ? $('.nei-box').css({ "padding-left": '0px' }) : $('.nei-box').css({ "padding-left": '240px' })
+    })
+    $(window).width() <= 990 ? $('.right-column').width('0px') : $('.right-column').width('240px')
+    $(window).width() <= 990 ? $('.head').css({ "padding-left": '0px' }) : $('.head').css({ "padding-left": '240px' })
+    $(window).width() <= 990 ? $('.nei-box').css({ "padding-left": '0px' }) : $('.nei-box').css({ "padding-left": '240px' })
+</script>

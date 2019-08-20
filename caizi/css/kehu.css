@@ -1,0 +1,134 @@
+.nei {
+    margin-top: 52px;
+}
+
+.nei-nei-ron {
+    width: 100%;
+    padding: 15px;
+    background: #f2f2f2;
+}
+
+.nei-xia {
+    width: 100%;
+    background: white;
+    padding: 30px;
+}
+
+.nei-xia-yi {
+    width: 100%;
+    background: white;
+}
+
+.nei-xia-shu {
+    width: 100%;
+    height: 78px;
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.nei-xia-shu input {
+    width: 100%;
+    height: 38px;
+    font-size: 15px;
+    border-bottom: 1px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    color: #fff;
+}
+
+.nei-xia-shu i {
+    font-size: 30px;
+    height: 38px;
+    border-bottom: 1px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
+    border-left: 1px solid #e6e6e6;
+    color: #666;
+}
+
+.nei-xia-er {
+    width: 100%;
+    height: 41px;
+    display: flex;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+
+.nei-xia-er li {
+    font-size: 15px;
+    width: 105px;
+    height: 40px;
+    padding: 0 15px 0 15px;
+}
+
+.nei-xia-er li a {
+    color: #666;
+}
+
+.nei-xia-er li:nth-child(2) {
+    width: 90px;
+}
+
+.nei-xia-er li:nth-child(3) {
+    width: 90px;
+}
+
+.nei-xia-yi-yi {
+    width: 100%;
+    height: 124.5px;
+    padding: 25px 0 25px 0;
+    display: flex;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.nei-xia-yi-yi img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.nei-xia-yi-er {
+    width: 100%;
+    height: 74.5px;
+    margin-left: 20px;
+}
+
+.nei-xia-yi-eryi {
+    display: flex;
+}
+
+.nei-xia-yi-eryi li:nth-child(1) {
+    font-size: 15px;
+    font-weight: 900;
+    color: #666;
+    padding-right: 10px;
+}
+
+.nei-xia-yi-eryi li {
+    font-size: 15px;
+    color: #666;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
+
+.nei-xia-yi-erer {
+    font-size: 15px;
+    color: #666;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
+
+.nei-xia-yi-ersan {
+    width: 100%;
+    height: 17.5px;
+}
+
+.nei-xia-yi-ersan img {
+    width: 6%;
+    height: 22px;
+}
+
+
+
+.zxf_pagediv {
+    padding: 0 0 0 20%;
+}
